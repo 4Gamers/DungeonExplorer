@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DungeonExplorer2008.Program">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonExplorer2008.game.Config">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>game\Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonExplorer2008.game.Player">
+    <Position X="2" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIEAAAAAAAAAAAAgAAQAAgAIAQAAAAAAAAAAQAA=</HashCode>
+      <FileName>game\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DungeonExplorer2008.game.Class">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAEAAAAAAAAAAAAAAAAgAAAIAAQAAAA=</HashCode>
+      <FileName>game\Config.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="9" />
+</ClassDiagram>

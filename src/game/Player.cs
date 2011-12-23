@@ -62,6 +62,7 @@ namespace DungeonExplorer2008.game
             Console.WriteLine();
             System.Threading.Thread.Sleep(200); // Sleep
 
+            Console.WriteLine("Hello {0}, what race were you born into?", name);
             string race = ReadRace(name);
 
             p = new Player(name, race); // Create player
@@ -78,19 +79,27 @@ namespace DungeonExplorer2008.game
 
         public static string ReadRace(string name)
         {
-            Console.WriteLine("Hello {0}, what race were you born into?", name);
             Console.WriteLine(Config.Classes+"?");
-
 
             string race = Console.ReadLine();
             race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
 
-            while (!Enum.IsDefined(typeof(Class), race))
+            if (!Enum.IsDefined(typeof(Class), race))
+                return ReadRace(name); // Not exists
+
+            Class c = (Class)Enum.Parse(typeof(Class), race);
+
+            switch (c)
             {
-                Console.WriteLine("\tPlease try again");
-                race = Console.ReadLine();
-                race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
+                case Class.Elf:
+                    Console.WriteLine("Elves are strong");
+                    break;
             }
+
+            Console.WriteLine("Are you sure you are a {0}? (Y/N)", race);
+
+            if (Console.ReadLine().ToUpper() != "Y")
+                return ReadRace(name);
 
             return race;
         }

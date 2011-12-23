@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="game\Config.cs" />
     <Compile Include="game\Player.cs" />
+    <Compile Include="game\Race.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
