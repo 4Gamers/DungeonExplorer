@@ -7,12 +7,13 @@ namespace DungeonExplorer2008.game
 {
     class Player
     {
-
+        #region Private
         private string _playerName;
         private string _playerRace;
         private int _playerHealth;
+        #endregion
 
-
+        #region Public
         public string Name
         {
             get { return _playerName; }
@@ -29,7 +30,7 @@ namespace DungeonExplorer2008.game
             get { return _playerHealth; }
             set { _playerHealth = value; }
         }
-
+        #endregion
 
         public Player() 
             : this("Prisoner", "N/A")
@@ -76,7 +77,6 @@ namespace DungeonExplorer2008.game
             Console.WriteLine("Dwarf, Elf, Human, Orc or Halfling");
 
             string race = Console.ReadLine();
-
             race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
 
             while (!Enum.IsDefined(typeof(Config.Classes), race))
