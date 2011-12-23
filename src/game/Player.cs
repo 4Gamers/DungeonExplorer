@@ -78,7 +78,8 @@ namespace DungeonExplorer2008.game
             string race = Console.ReadLine();
 
             race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
-            while (race != "Dwarf" && race != "Elf" && race != "Human" && race != "Orc" && race != "Halfling")
+
+            while (!Enum.IsDefined(typeof(Config.Classes), race))
             {
                 Console.WriteLine("\tPlease try again");
                 Console.WriteLine("Dwarf, Elf, Human, Orc or Halfling");
