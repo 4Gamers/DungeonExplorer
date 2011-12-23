@@ -9,7 +9,7 @@ namespace DungeonExplorer2008.game
     {
         #region Private
         private string _playerName;
-        private string _playerRace;
+        private Class _playerRace;
         private int _playerHealth;
         #endregion
 
@@ -22,8 +22,8 @@ namespace DungeonExplorer2008.game
 
         public string Race
         {
-            get { return _playerRace; }
-            set { _playerRace = value; }
+            get { return Enum.GetName(typeof(Class), _playerRace); }
+            set { _playerRace = (Class)Enum.Parse(typeof(Class), value); }
         }
 
         public int Hp {
@@ -44,9 +44,16 @@ namespace DungeonExplorer2008.game
 
         public Player(string playerName, string playerRace, int playerHealth)
         {
-            this._playerName = playerName;
-            this._playerRace = playerRace;
-            this._playerHealth = playerHealth;
+            this.Name = playerName;
+            this.Race = playerRace;
+            this.Hp = playerHealth;
+
+            switch (this._playerRace)
+            {
+                case Class.Elf:
+                    Console.WriteLine("I AM ELF");
+                    break;
+            }
         }
 
         public static void CreatePlayer(Player p)
@@ -79,7 +86,7 @@ namespace DungeonExplorer2008.game
             string race = Console.ReadLine();
             race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
 
-            while (!Enum.IsDefined(typeof(Config.Classes), race))
+            while (!Enum.IsDefined(typeof(Class), race))
             {
                 Console.WriteLine("\tPlease try again");
                 Console.WriteLine("Dwarf, Elf, Human, Orc or Halfling");
