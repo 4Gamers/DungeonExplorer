@@ -51,37 +51,36 @@ namespace DungeonExplorer2008.game
             switch (this._playerRace)
             {
                 case Class.Elf:
-                    Console.WriteLine("I AM ELF");
+                    Console.WriteLine("I AM "+this.Race);
                     break;
             }
         }
 
         public static void CreatePlayer(Player p)
         {
-            Console.WriteLine();
             string name = ReadName();
+            Console.WriteLine();
+            System.Threading.Thread.Sleep(200); // Sleep
 
-            System.Threading.Thread.Sleep(1000); // Sleep
-
-            string race = ReadRace();
+            string race = ReadRace(name);
 
             p = new Player(name, race); // Create player
         }
 
         public static string ReadName()
         {
-            Console.WriteLine("Welcome to *Game Name*");
-            Console.Write("\nPlease Type your name: ");
+            Console.Write("\nPlease type your name: ");
             string name = Console.ReadLine();
             while (name == null)
                 name = Console.ReadLine();
             return name;
         }
 
-        public static string ReadRace()
+        public static string ReadRace(string name)
         {
-            Console.WriteLine("What race were you born into?");
-            Console.WriteLine("Dwarf, Elf, Human, Orc or Halfling");
+            Console.WriteLine("Hello {0}, what race were you born into?", name);
+            Console.WriteLine(Config.Classes+"?");
+
 
             string race = Console.ReadLine();
             race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
@@ -89,7 +88,6 @@ namespace DungeonExplorer2008.game
             while (!Enum.IsDefined(typeof(Class), race))
             {
                 Console.WriteLine("\tPlease try again");
-                Console.WriteLine("Dwarf, Elf, Human, Orc or Halfling");
                 race = Console.ReadLine();
                 race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
             }

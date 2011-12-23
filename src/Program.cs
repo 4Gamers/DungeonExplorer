@@ -12,6 +12,10 @@ namespace DungeonExplorer2008
 
         private static void Main(string[] args)
         {
+            Console.Title = Config.GameName;
+            Console.WriteLine();
+            Console.WriteLine("Welcome to {0}", Config.GameName);
+            Console.WriteLine();
             Player.CreatePlayer(player1);
         }
     }
