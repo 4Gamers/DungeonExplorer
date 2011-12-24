@@ -22,4 +22,866 @@ Please choose your action.
 Please choose your action.
 (You can type HELP for your commands list).</Msg>
   </Map>
+  <Map>
+    <Id>3</Id>
+    <Name>Home3</Name>
+    <Blocked>13</Blocked>
+    <Msg>
+      3You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>4</Id>
+    <Name>Home4</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      4You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>5</Id>
+    <Name>Home5</Name>
+    <Blocked>15</Blocked>
+    <Msg>
+      5You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>6</Id>
+    <Name>Home6</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      6You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>7</Id>
+    <Name>Home7</Name>
+    <Blocked>8</Blocked>
+    <Msg>
+      7You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>8</Id>
+    <Name>Home8</Name>
+    <Blocked>7</Blocked>
+    <Msg>
+      8You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>9</Id>
+    <Name>Home9</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      9You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>10</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this
+    </Msg>
+  </Map>
+  <Map>
+    <Id>11</Id>
+    <Name>Home11</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      11You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>12</Id>
+    <Name>Home12</Name>
+    <Blocked>22</Blocked>
+    <Msg>
+      22You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>13</Id>
+    <Name>Home13</Name>
+    <Blocked>3,14</Blocked>
+    <Msg>
+      13You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>14</Id>
+    <Name>Home14</Name>
+    <Blocked>13,15</Blocked>
+    <Msg>
+      14You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>15</Id>
+    <Name>Home15</Name>
+    <Blocked>14,5,16</Blocked>
+    <Msg>
+      15You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>16</Id>
+    <Name>Home16</Name>
+    <Blocked>15,17</Blocked>
+    <Msg>
+      16You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>17</Id>
+    <Name>Home17</Name>
+    <Blocked>16,18</Blocked>
+    <Msg>
+      17You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>18</Id>
+    <Name>Home18</Name>
+    <Blocked>17,28,19</Blocked>
+    <Msg>
+      18You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>19</Id>
+    <Name>Home19</Name>
+    <Blocked>18</Blocked>
+    <Msg>
+      19You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>20</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this.
+    </Msg>
+  </Map>
+  <Map>
+    <Id>21</Id>
+    <Name>Home21</Name>
+    <Blocked>22</Blocked>
+    <Msg>
+      21You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>22</Id>
+    <Name>Home22</Name>
+    <Blocked>21,12,23</Blocked>
+    <Msg>
+      22You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>23</Id>
+    <Name>Home23</Name>
+    <Blocked>22,24</Blocked>
+    <Msg>
+      23You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>24</Id>
+    <Name>Home24</Name>
+    <Blocked>23,25</Blocked>
+    <Msg>
+      24You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>25</Id>
+    <Name>Home25</Name>
+    <Blocked>24,35</Blocked>
+    <Msg>
+      25You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>26</Id>
+    <Name>Home26</Name>
+    <Blocked>36,27</Blocked>
+    <Msg>
+      26You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>27</Id>
+    <Name>Home27</Name>
+    <Blocked>26,37</Blocked>
+    <Msg>
+      27You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>28</Id>
+    <Name>Home28</Name>
+    <Blocked>18,38</Blocked>
+    <Msg>
+      28You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>29</Id>
+    <Name>Home29</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      29You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>30</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this.
+    </Msg>
+  </Map>
+  <Map>
+    <Id>31</Id>
+    <Name>Home31</Name>
+    <Blocked>41</Blocked>
+    <Msg>
+      31You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>32</Id>
+    <Name>Home32</Name>
+    <Blocked>42,33</Blocked>
+    <Msg>
+      32You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>33</Id>
+    <Name>Home33</Name>
+    <Blocked>32,34</Blocked>
+    <Msg>
+      33You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>34</Id>
+    <Name>Home34</Name>
+    <Blocked>33,44</Blocked>
+    <Msg>
+      34You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>35</Id>
+    <Name>Home35</Name>
+    <Blocked>25,45</Blocked>
+    <Msg>
+      35You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>36</Id>
+    <Name>Home36</Name>
+    <Blocked>26,37</Blocked>
+    <Msg>
+      36You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>37</Id>
+    <Name>Home37</Name>
+    <Blocked>36,27</Blocked>
+    <Msg>
+      37You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>38</Id>
+    <Name>Home38</Name>
+    <Blocked>28,39</Blocked>
+    <Msg>
+      38You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>39</Id>
+    <Name>Home39</Name>
+    <Blocked>38</Blocked>
+    <Msg>
+      39You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>40</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this.
+    </Msg>
+  </Map>
+  <Map>
+    <Id>41</Id>
+    <Name>Home41</Name>
+    <Blocked>31</Blocked>
+    <Msg>
+      41You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>42</Id>
+    <Name>Home42</Name>
+    <Blocked>32</Blocked>
+    <Msg>
+      42You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>43</Id>
+    <Name>Home43</Name>
+    <Blocked>53</Blocked>
+    <Msg>
+      43You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+    <Map>
+      <Id>44</Id>
+      <Name>Home44</Name>
+      <Blocked>34,54,45</Blocked>
+      <Msg>
+        44You find your self in a locked cellar in a dungeon.
+        Please choose your action.
+        (You can type HELP for your commands list).
+      </Msg>
+    </Map>
+  </Map>
+  <Map>
+    <Id>45</Id>
+    <Name>Home45</Name>
+    <Blocked>35,44</Blocked>
+    <Msg>
+      45You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>46</Id>
+    <Name>Home46</Name>
+    <Blocked>47</Blocked>
+    <Msg>
+      46You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>47</Id>
+    <Name>Home47</Name>
+    <Blocked>46,48</Blocked>
+    <Msg>
+      47You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>48</Id>
+    <Name>Home48</Name>
+    <Blocked>47,49</Blocked>
+    <Msg>
+      48You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>49</Id>
+    <Name>Home49</Name>
+    <Blocked>48</Blocked>
+    <Msg>
+      49You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>50</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this.
+    </Msg>
+  </Map>
+  <Map>
+    <Id>51</Id>
+    <Name>Home51</Name>
+    <Blocked>52</Blocked>
+    <Msg>
+      51You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>52</Id>
+    <Name>Home52</Name>
+    <Blocked>51,53,62</Blocked>
+    <Msg>
+      52You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>53</Id>
+    <Name>Home53</Name>
+    <Blocked>52,43</Blocked>
+    <Msg>
+      53You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>54</Id>
+    <Name>Home54</Name>
+    <Blocked>44,64</Blocked>
+    <Msg>
+      54You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>55</Id>
+    <Name>Home55</Name>
+    <Blocked>65</Blocked>
+    <Msg>
+      55You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>56</Id>
+    <Name>Home56</Name>
+    <Blocked>66</Blocked>
+    <Msg>
+      56You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>57</Id>
+    <Name>Home57</Name>
+    <Blocked>67,58</Blocked>
+    <Msg>
+      57You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>58</Id>
+    <Name>Home58</Name>
+    <Blocked>57</Blocked>
+    <Msg>
+      58You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>59</Id>
+    <Name>Home59</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      59You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>60</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this.
+    </Msg>
+  </Map>
+  <Map>
+    <Id>61</Id>
+    <Name>Home61</Name>
+    <Blocked>71</Blocked>
+    <Msg>
+      61You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>62</Id>
+    <Name>Home62</Name>
+    <Blocked>52,63</Blocked>
+    <Msg>
+      62You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>63</Id>
+    <Name>Home63</Name>
+    <Blocked>62,64</Blocked>
+    <Msg>
+      63You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>64</Id>
+    <Name>Home64</Name>
+    <Blocked>63,54,74</Blocked>
+    <Msg>
+      64You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>65</Id>
+    <Name>Home65</Name>
+    <Blocked>55</Blocked>
+    <Msg>
+      65You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>66</Id>
+    <Name>Home66</Name>
+    <Blocked>56,76</Blocked>
+    <Msg>
+      66You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>67</Id>
+    <Name>Home67</Name>
+    <Blocked>57,77</Blocked>
+    <Msg>
+      67You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>68</Id>
+    <Name>Home68</Name>
+    <Blocked>69</Blocked>
+    <Msg>
+      68You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>69</Id>
+    <Name>Home69</Name>
+    <Blocked>68</Blocked>
+    <Msg>
+      69You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>70</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this.
+    </Msg>
+  </Map>
+  <Map>
+    <Id>71</Id>
+    <Name>Home71</Name>
+    <Blocked>61,72</Blocked>
+    <Msg>
+      71You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>72</Id>
+    <Name>Home72</Name>
+    <Blocked>71</Blocked>
+    <Msg>
+      72You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>73</Id>
+    <Name>Home73</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      73You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>74</Id>
+    <Name>Home74</Name>
+    <Blocked>64,75,84</Blocked>
+    <Msg>
+      74You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>75</Id>
+    <Name>Home75</Name>
+    <Blocked>74,85,76</Blocked>
+    <Msg>
+      75You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>76</Id>
+    <Name>Home76</Name>
+    <Blocked>75,66</Blocked>
+    <Msg>
+      76You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>77</Id>
+    <Name>Home77</Name>
+    <Blocked>67,87</Blocked>
+    <Msg>
+      77You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>78</Id>
+    <Name>Home78</Name>
+    <Blocked>88,79</Blocked>
+    <Msg>
+      78You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>79</Id>
+    <Name>Home79</Name>
+    <Blocked>78,89</Blocked>
+    <Msg>
+      79You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>80</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this.
+    </Msg>
+  </Map>
+  <Map>
+    <Id>81</Id>
+    <Name>Home81</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      81You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>82</Id>
+    <Name>Home82</Name>
+    <Blocked>83</Blocked>
+    <Msg>
+      82You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>83</Id>
+    <Name>Home83</Name>
+    <Blocked>82</Blocked>
+    <Msg>
+      83You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>84</Id>
+    <Name>Home84</Name>
+    <Blocked>74,85</Blocked>
+    <Msg>
+      84You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>85</Id>
+    <Name>Home85</Name>
+    <Blocked>84,75</Blocked>
+    <Msg>
+      85You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>86</Id>
+    <Name>Home86</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      86You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>87</Id>
+    <Name>Home87</Name>
+    <Blocked>77</Blocked>
+    <Msg>
+      87You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>88</Id>
+    <Name>Home88</Name>
+    <Blocked>78</Blocked>
+    <Msg>
+      88You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>89</Id>
+    <Name>Home89</Name>
+    <Blocked>79</Blocked>
+    <Msg>
+      89You find your self in a locked cellar in a dungeon.
+      Please choose your action.
+      (You can type HELP for your commands list).
+    </Msg>
+  </Map>
+  <Map>
+    <Id>90</Id>
+    <Name>Blank</Name>
+    <Blocked>0</Blocked>
+    <Msg>
+      Don't change this.
+    </Msg>
+  </Map>
 </Maps>
