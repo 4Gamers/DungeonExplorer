@@ -8,11 +8,15 @@
   <Map>
     <Id>1</Id>
     <Name>Home</Name>
-    <Msg>You find your self in a locked cellar in a dungeon.\nPlease choose your action.\n(you can type HELP for your commands list).</Msg>
+    <Msg>You find your self in a locked cellar in a dungeon.
+Please choose your action.
+(you can type HELP for your commands list).</Msg>
   </Map>
   <Map>
     <Id>2</Id>
     <Name>Home2</Name>
-    <Msg>2You find your self in a locked cellar in a dungeon.\nPlease choose your action.\n(you can type HELP for your commands list).</Msg>
+    <Msg>2You find your self in a locked cellar in a dungeon.
+Please choose your action.
+(you can type HELP for your commands list).</Msg>
   </Map>
 </Maps>

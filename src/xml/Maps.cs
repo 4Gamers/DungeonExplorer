@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Xml.Serialization;
+using System.Xml;
 using System.Reflection;
 using DungeonExplorer.game;
 
@@ -16,14 +17,20 @@ namespace DungeonExplorer.xml
         static Maps()
         {
             XmlSerializer deserializer = new XmlSerializer(typeof(MapsData), new XmlRootAttribute("Maps"));
-            TextReader textReader = new StreamReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("DungeonExplorer.maps.xml"));
+            XmlTextReader textReader = new XmlTextReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("DungeonExplorer.maps.xml"));
+            textReader.Normalization = false;
             MapsData = (MapsData)deserializer.Deserialize(textReader);
             textReader.Close();
         }
 
+        public static bool MapExists(int loc)
+        {
+            return (MapsData.Maps.Count > loc);
+        }
+
         public static Map getMap(int loc)
         {
-            return MapsData.Maps[loc]; // 1 = 0
+            return MapsData.Maps[loc]; // 0 = Blank
         }
     }
 }

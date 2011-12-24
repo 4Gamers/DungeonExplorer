@@ -32,12 +32,12 @@ namespace DungeonExplorer.game
 
             string[] command = Console.ReadLine().ToLower().Split(' ');
 
-            return (Commands.Handle(command) == false) ? false : Start();
+            return (Commands.Handle(_p, command) == false) ? false : Start();
         }
 
         private string Location(Map location)
         {
-            return location.Msg;
+            return location.Msg.ToString();
         }
     }
 }

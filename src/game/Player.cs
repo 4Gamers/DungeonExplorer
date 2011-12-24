@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
+using DungeonExplorer.xml;
+
 namespace DungeonExplorer.game
 {
     [Serializable()]
@@ -64,6 +66,17 @@ namespace DungeonExplorer.game
                     Console.WriteLine("I AM " + this.Race);
                     break;
             }
+        }
+
+        public bool ChangeMap(int map)
+        {
+            if (map >= 1 && map <= 89) // Limits
+                if (Maps.MapExists(map) && Maps.getMap(map).From(this.Location))
+                {
+                    this.Location = map;
+                    return true;
+                }
+            return false;
         }
 
         public static Player CreatePlayer(Player p)

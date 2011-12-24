@@ -16,6 +16,11 @@ namespace DungeonExplorer.game
 
         [XmlElement(ElementName = "Msg")]
         public string Msg { get; set; }
+
+        public bool From(int map)
+        {
+            return true; // False if blocked
+        }
     }
 
 }
