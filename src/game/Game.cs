@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DungeonExplorer2008.xml;
+using DungeonExplorer.xml;
 
-namespace DungeonExplorer2008.game
+namespace DungeonExplorer.game
 {
     class Game
     {

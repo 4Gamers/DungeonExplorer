@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Xml.Serialization;
+using DungeonExplorer.game;
 
-using DungeonExplorer2008.game;
-
-namespace DungeonExplorer2008.xml
+namespace DungeonExplorer.xml
 {
     static class Maps
     {
@@ -16,7 +15,7 @@ namespace DungeonExplorer2008.xml
         static Maps()
         {
             var deserializer = new XmlSerializer(typeof(MapsData), new XmlRootAttribute("Maps"));
-            TextReader textReader = new StreamReader("maps.xml");
+            TextReader textReader = new StreamReader(global::DungeonExplorer.Properties.Resources.maps);
             MapsData = (MapsData)deserializer.Deserialize(textReader);
             textReader.Close();
         }

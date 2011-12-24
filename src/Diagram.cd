@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="DungeonExplorer2008.Program">
+  <Class Name="DungeonExplorer.Program">
     <Position X="1" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAA=</HashCode>
@@ -10,13 +10,13 @@
       <Field Name="game" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="DungeonExplorer2008.game.Config">
+  <Class Name="DungeonExplorer.game.Config">
     <Position X="5" Y="2.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Enum Name="DungeonExplorer2008.game.Config.Race" Collapsed="true">
+      <Enum Name="DungeonExplorer.game.Config.Race" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -27,14 +27,14 @@
       <FileName>game\Config.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DungeonExplorer2008.game.Player">
+  <Class Name="DungeonExplorer.game.Player">
     <Position X="1.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAIEAAAAAAAAAAAAgAAQAAgAIAQAAAAAAAAAAQAA=</HashCode>
       <FileName>game\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DungeonExplorer2008.game.Game">
+  <Class Name="DungeonExplorer.game.Game">
     <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -44,7 +44,7 @@
       <Field Name="_p" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="DungeonExplorer2008.game.Commands">
+  <Class Name="DungeonExplorer.game.Commands">
     <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>

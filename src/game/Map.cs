@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace DungeonExplorer2008.game
+namespace DungeonExplorer.game
 {
     public class Map
     {

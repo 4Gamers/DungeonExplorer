@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DungeonExplorer2008.game
+namespace DungeonExplorer.game
 {
 
     public static class Config
