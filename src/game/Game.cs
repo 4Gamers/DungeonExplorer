@@ -13,22 +13,21 @@ namespace DungeonExplorer2008.game
         {
             Console.Title = Config.GameName;
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Welcome to {0}", Config.GameName);
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();
             Player.CreatePlayer(_p);
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.Beep();
-            Console.WriteLine();
+            Console.Clear();
 
             Console.WriteLine();
-            this.Start();
+            this.Start(); // Loop till exit
         }
 
         public bool Start()
         {
-            Console.WriteLine(Location(/*mapid*/0));
+            Console.WriteLine(Location(_p.Location));
             string[] command = Console.ReadLine().ToLower().Split(' ');
 
             return (Commands.Handle(command) == false) ? false : Start();

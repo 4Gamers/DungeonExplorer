@@ -11,6 +11,8 @@ namespace DungeonExplorer2008.game
         private string _playerName;
         private Config.Race _playerRace;
         private int _playerHealth;
+        private int LocationX = 1; // 1-9
+        private int LocationY = 1; // 0-8
         #endregion
 
         #region Public
@@ -18,6 +20,12 @@ namespace DungeonExplorer2008.game
         {
             get { return _playerName; }
             set { _playerName = value; }
+        }
+
+        public int Location
+        {
+            get { return this.LocationY * 10 + this.LocationX; }
+            set { LocationY = value / 10; LocationX = value % 10; }
         }
 
         public string Race
