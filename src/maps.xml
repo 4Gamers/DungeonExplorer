@@ -3,11 +3,13 @@
   <Map>
     <Id>0</Id>
     <Name>Blank</Name>
+    <Blocked></Blocked>
     <Msg>Don't change this</Msg>
   </Map>
   <Map>
     <Id>1</Id>
     <Name>Home</Name>
+    <Blocked>2</Blocked>
     <Msg>You find your self in a locked cellar in a dungeon.
 Please choose your action.
 (You can type HELP for your commands list).</Msg>
@@ -15,6 +17,7 @@ Please choose your action.
   <Map>
     <Id>2</Id>
     <Name>Home2</Name>
+    <Blocked></Blocked>
     <Msg>2You find your self in a locked cellar in a dungeon.
 Please choose your action.
 (You can type HELP for your commands list).</Msg>
