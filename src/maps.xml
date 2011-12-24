@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map>
+    <Id>0</Id>
+    <Name>Blank</Name>
+    <Msg>Don't change this</Msg>
+  </Map>
+  <Map>
     <Id>1</Id>
     <Name>Home</Name>
     <Msg>You find your self in a locked cellar in a dungeon.\nPlease choose your action.\n(you can type HELP for your commands list).</Msg>

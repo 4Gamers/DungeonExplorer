@@ -71,11 +71,11 @@
     <None Include="Diagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="maps.xml" />
+    <EmbeddedResource Include="maps.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
