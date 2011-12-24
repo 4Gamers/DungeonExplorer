@@ -1,32 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DungeonExplorer2008.Program">
-    <Position X="2" Y="0.5" Width="1.5" />
+    <Position X="1" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="game" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="DungeonExplorer2008.game.Config">
-    <Position X="4" Y="0.75" Width="1.5" />
+    <Position X="5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="DungeonExplorer2008.game.Config.Race" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>game\Config.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
     <TypeIdentifier>
       <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAA=</HashCode>
       <FileName>game\Config.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DungeonExplorer2008.game.Player">
-    <Position X="2" Y="2.25" Width="1.5" />
+    <Position X="1.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAIEAAAAAAAAAAAAgAAQAAgAIAQAAAAAAAAAAQAA=</HashCode>
       <FileName>game\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="DungeonExplorer2008.game.Race">
-    <Position X="4.25" Y="2.25" Width="1.5" />
+  <Class Name="DungeonExplorer2008.game.Game">
+    <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgAAAAAEAAAAAAAAAAAAAAAAgAAAIAAQAAAA=</HashCode>
-      <FileName>game\Config.cs</FileName>
+      <HashCode>CAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>game\Game.cs</FileName>
     </TypeIdentifier>
-  </Enum>
+    <ShowAsAssociation>
+      <Field Name="_p" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DungeonExplorer2008.game.Commands">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>game\Commands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Tahoma" Size="9" />
 </ClassDiagram>

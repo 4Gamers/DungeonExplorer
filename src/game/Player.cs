@@ -9,24 +9,24 @@ namespace DungeonExplorer2008.game
     {
         #region Private
         private string _playerName;
-        private Race _playerRace;
+        private Config.Race _playerRace;
         private int _playerHealth;
         #endregion
 
         #region Public
-        public string mName
+        public string Name
         {
             get { return _playerName; }
             set { _playerName = value; }
         }
 
-        public string mRace
+        public string Race
         {
-            get { return Enum.GetName(typeof(Race), _playerRace); }
-            set { _playerRace = (Race)Enum.Parse(typeof(Race), value); }
+            get { return Enum.GetName(typeof(Config.Race), _playerRace); }
+            set { _playerRace = (Config.Race)Enum.Parse(typeof(Config.Race), value); }
         }
 
-        public int mHp
+        public int Hp
         {
             get { return _playerHealth; }
             set { _playerHealth = value; }
@@ -45,14 +45,14 @@ namespace DungeonExplorer2008.game
 
         public Player(string playerName, string playerRace, int playerHealth)
         {
-            this.mName = playerName;
-            this.mRace = playerRace;
-            this.mHp = playerHealth;
+            this.Name = playerName;
+            this.Race = playerRace;
+            this.Hp = playerHealth;
 
             switch (this._playerRace)
             {
-                case Race.Elf:
-                    Console.WriteLine("I AM " + this.mRace);
+                case Config.Race.Elf:
+                    Console.WriteLine("I AM " + this.Race);
                     break;
             }
         }
@@ -85,29 +85,29 @@ namespace DungeonExplorer2008.game
             string race = Console.ReadLine();
             race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
 
-            if (!Enum.IsDefined(typeof(Race), race))
+            if (!Enum.IsDefined(typeof(Config.Race), race))
                 return ReadRace(name); // Not exists, ask again
 
-            Race c = (Race)Enum.Parse(typeof(Race), race);
+            Config.Race c = (Config.Race)Enum.Parse(typeof(Config.Race), race);
 
             Console.WriteLine();
             switch (c)
             {
-                case Race.Elf:
+                case Config.Race.Elf:
                     Console.WriteLine("Elves are Commonly referred to as the Fair Folk, Elves are a long-lived people who have populated many places following their retreat from Xen'drix. The stereotypical (and true) physical description of an elf includes large pointed ears; slanted eyes; elegant, angled faces; somewhat short physique, and dark forest-green eyes; finally, most differences between male and female elves are marginal.");
                     Console.WriteLine(@"Racial Traits:
 +2 Dexterity, -2 Constitution
 Immunity to sleep spells and effects
 +2 saving throw bonus against enchantment spells or effects");
                     break;
-                case Race.Orc:
+                case Config.Race.Orc:
                     Console.WriteLine("Orcs are extremely strong and have a bonus modifier to Strength. Orcs also have a penalty to Charisma and Intelligence, and generally they have less charisma and intelligence than most other races. Orcs excel in melee combat.");
                     Console.WriteLine(@"Racial Traits:
 +2 Strength
 -2 Intelligence
 -2 Charisma");
                     break;
-                case Race.Dwarf:
+                case Config.Race.Dwarf:
                     Console.WriteLine("Dwarves are known for their skill in warfare, their ability to withstand physical and magical punishment and their hard work.");
                     Console.WriteLine(@"Racial Traits:
 +2 Constitution, –2 Charisma.
@@ -118,14 +118,14 @@ Weapon Familiarity: Dwarves may treat dwarven axe as martial weapons, rather tha
 +2 racial bonus on saving throws against spells.
 +1 racial bonus on attack rolls against orcs and goblinoids.");
                     break;
-                case Race.Human:
+                case Config.Race.Human:
                     Console.WriteLine("Humans are well rounded race that can excel at any class, with no outstanding benefits and virtually no flaws they are an excellent choice for any player new to the Dungeons & Dragons gaming system and the world of Eberron.");
                     Console.WriteLine(@"Racial Traits:
 +4 skill points at character creation
 +1 skill point at every level after level 1
 1 bonus feat at level 1.");
                     break;
-                case Race.Halfling:
+                case Config.Race.Halfling:
                     Console.WriteLine("Halflings are clever, capable and resourceful survivors. They are notoriously curious and show a daring that many larger people can’t match.");
                     Console.WriteLine(@"Racial Traits
 +2 Dexterity, –2 Strength
