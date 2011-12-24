@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Reflection;
 
 namespace DungeonExplorer.game
 {
@@ -39,7 +40,21 @@ namespace DungeonExplorer.game
 
         public static void Help()
         {
-            Console.WriteLine("Help help help");
+            // get all public static methods of MyClass type
+            MethodInfo[] methodInfos = typeof(Commands).GetMethods(BindingFlags.Public |
+                                                                  BindingFlags.Static).Where(x => x.Name != "Handle").ToArray();
+            // sort methods by name
+            /*Array.Sort(methodInfos,
+                    delegate(MethodInfo methodInfo1, MethodInfo methodInfo2)
+                    { return methodInfo1.Name.CompareTo(methodInfo2.Name); });*/
+
+            // write method names
+            Console.WriteLine();
+            foreach (MethodInfo methodInfo in methodInfos)
+            {
+                    Console.WriteLine(methodInfo.Name.ToLower());
+            }
+            Console.WriteLine();
         }
 
         public static bool Move(Player p, string to)

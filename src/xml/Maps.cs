@@ -32,5 +32,5 @@ namespace DungeonExplorer.xml
         {
             return MapsData.Maps[loc]; // 0 = Blank
         }
-    }
+    } 
 }

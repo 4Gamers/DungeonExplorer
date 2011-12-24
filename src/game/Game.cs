@@ -27,8 +27,12 @@ namespace DungeonExplorer.game
 
         public bool Start()
         {
-            Console.WriteLine("Map: "+Maps.getMap(_p.Location).Name);
-            Console.WriteLine(Location(Maps.getMap(_p.Location)));
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Map: ");
+            sb.Append(Maps.getMap(_p.Location).Name);
+            sb.Append("\r\n\r\n");
+            sb.Append(Location(Maps.getMap(_p.Location)));
+            Console.WriteLine(sb);
 
             string[] command = Console.ReadLine().ToLower().Split(' ');
 
