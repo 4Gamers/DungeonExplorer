@@ -14,8 +14,9 @@ namespace DungeonExplorer.game
         private string _playerName;
         private Config.Race _playerRace;
         private int _playerHealth;
-        private int LocationX = 1; // 1-9
-        private int LocationY = 0; // 0-8
+        private int LocationX = 2; // 1-9
+        private int LocationY = 2; // 0-8
+        private Inventory Inv;
         #endregion
 
         #region Public
@@ -59,6 +60,7 @@ namespace DungeonExplorer.game
             this.Name = playerName;
             this.Race = playerRace;
             this.Hp = playerHealth;
+            this.Inv = new Inventory(this);
 
             switch (this._playerRace)
             {
@@ -70,10 +72,12 @@ namespace DungeonExplorer.game
 
         public bool ChangeMap(int map)
         {
-            if (map >= 1 && map <= 89) // Limits
+            if (map >= 1 && map <= 89 && map / 10 != 0) // Limits
                 if (Maps.MapExists(map) && Maps.getMap(map).From(this.Location))
                 {
                     this.Location = map;
+                    if (this.Location == 45)
+                        Console.WriteLine("You did it my hero! (THE END?)");
                     return true;
                 }
             return false;

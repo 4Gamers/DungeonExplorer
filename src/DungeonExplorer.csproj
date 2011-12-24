@@ -55,6 +55,9 @@
     <Compile Include="game\Commands.cs" />
     <Compile Include="game\Config.cs" />
     <Compile Include="game\Game.cs" />
+    <Compile Include="game\Inventory.cs" />
+    <Compile Include="game\items\Item.cs" />
+    <Compile Include="game\items\Key.cs" />
     <Compile Include="game\Map.cs" />
     <Compile Include="game\MapData.cs" />
     <Compile Include="game\Player.cs" />
