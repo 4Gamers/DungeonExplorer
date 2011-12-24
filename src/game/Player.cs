@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Xml.Serialization;
 namespace DungeonExplorer2008.game
 {
+    [Serializable()]
     class Player
     {
         #region Private
@@ -12,7 +13,7 @@ namespace DungeonExplorer2008.game
         private Config.Race _playerRace;
         private int _playerHealth;
         private int LocationX = 1; // 1-9
-        private int LocationY = 1; // 0-8
+        private int LocationY = 0; // 0-8
         #endregion
 
         #region Public
@@ -24,7 +25,7 @@ namespace DungeonExplorer2008.game
 
         public int Location
         {
-            get { return this.LocationY * 10 + this.LocationX; }
+            get { return (this.LocationY * 10 + this.LocationX); }
             set { LocationY = value / 10; LocationX = value % 10; }
         }
 
@@ -65,7 +66,7 @@ namespace DungeonExplorer2008.game
             }
         }
 
-        public static void CreatePlayer(Player p)
+        public static Player CreatePlayer(Player p)
         {
             string name = ReadName();
             Console.WriteLine();
@@ -74,7 +75,7 @@ namespace DungeonExplorer2008.game
             Console.WriteLine("Hello {0}, what race were you born into?", name);
             string race = ReadRace(name);
 
-            p = new Player(name, race); // Create player
+            return new Player(name, race); // Create player
         }
 
         public static string ReadName()

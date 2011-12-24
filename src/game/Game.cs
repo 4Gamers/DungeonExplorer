@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using DungeonExplorer2008.xml;
 
 namespace DungeonExplorer2008.game
 {
@@ -17,25 +18,26 @@ namespace DungeonExplorer2008.game
             Console.WriteLine("Welcome to {0}", Config.GameName);
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();
-            Player.CreatePlayer(_p);
+            _p = Player.CreatePlayer(_p);
 
             Console.Clear();
 
-            Console.WriteLine();
             this.Start(); // Loop till exit
         }
 
         public bool Start()
         {
-            Console.WriteLine(Location(_p.Location));
+            Console.WriteLine("Map: "+Maps.getMap(_p.Location).Name);
+            Console.WriteLine(Location(Maps.getMap(_p.Location)));
+
             string[] command = Console.ReadLine().ToLower().Split(' ');
 
             return (Commands.Handle(command) == false) ? false : Start();
         }
 
-        private string Location(int location)
+        private string Location(Map location)
         {
-            return "You find your self in a locked cellar in a dungeon.\nPlease choose your action.\n(you can type HELP for your commands list).";
+            return location.Msg;
         }
     }
 }
