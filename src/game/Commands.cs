@@ -13,7 +13,7 @@ namespace DungeonExplorer.game
             switch (command[0]) // Command Handler
             {
                 case "move":
-                    if (!Commands.Move(p, command[1]))
+                    if (!Commands.Move(p, command))
                         Console.WriteLine("Blocked");
                     break;
                 case "use":
@@ -57,9 +57,14 @@ namespace DungeonExplorer.game
             Console.WriteLine();
         }
 
-        public static bool Move(Player p, string to)
+        public static bool Move(Player p, string[] cmd)
         {
-            char where = (char)to.First();
+            char where;
+
+            if (cmd.Length > 1)
+                where = (char)cmd[1].First();
+            else
+                where = '?';
 
             int mapTo = p.Location;
 
@@ -77,6 +82,9 @@ namespace DungeonExplorer.game
                 case 's':
                     mapTo += 10;
                     break;
+                default:
+                    Console.WriteLine("Type: move n/e/s/w");
+                    return false;
             }
 
             return p.ChangeMap(mapTo);
