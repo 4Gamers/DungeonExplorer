@@ -21,6 +21,8 @@ namespace DungeonExplorer.xml
             textReader.Normalization = false;
             MapsData = (MapsData)deserializer.Deserialize(textReader);
             textReader.Close();
+            foreach (Map m in MapsData.Maps)
+                m.Blocked = m.BlockedMaps.Split(',').Select(n => int.Parse(n)).ToArray();
         }
 
         public static bool MapExists(int loc)

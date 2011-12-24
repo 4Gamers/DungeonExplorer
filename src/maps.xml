@@ -3,7 +3,7 @@
   <Map>
     <Id>0</Id>
     <Name>Blank</Name>
-    <Blocked></Blocked>
+    <Blocked>0</Blocked>
     <Msg>Don't change this</Msg>
   </Map>
   <Map>
@@ -17,7 +17,7 @@ Please choose your action.
   <Map>
     <Id>2</Id>
     <Name>Home2</Name>
-    <Blocked></Blocked>
+    <Blocked>1</Blocked>
     <Msg>2You find your self in a locked cellar in a dungeon.
 Please choose your action.
 (You can type HELP for your commands list).</Msg>
