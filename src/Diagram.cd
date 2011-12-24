@@ -10,7 +10,7 @@
   <Class Name="DungeonExplorer2008.game.Config">
     <Position X="4" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAA=</HashCode>
       <FileName>game\Config.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -21,7 +21,7 @@
       <FileName>game\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="DungeonExplorer2008.game.Class">
+  <Enum Name="DungeonExplorer2008.game.Race">
     <Position X="4.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAgAAAAAEAAAAAAAAAAAAAAAAgAAAIAAQAAAA=</HashCode>

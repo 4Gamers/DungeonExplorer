@@ -5,25 +5,25 @@ using System.Text;
 
 namespace DungeonExplorer2008.game
 {
-    public enum Class { Dwarf = 1, Elf, Human, Orc, Halfling };
+    public enum Race { Dwarf = 1, Elf, Human, Orc, Halfling };
 
     public static class Config
     {
         public static string GameName = "Dungeon Explorer";
         public static string Version = "0.0.0";
-        public static string Classes
+        public static string Races // Class to string
         {
             get
             {
-                string classes = "";
+                string races = "";
 
-                foreach (Class c in Enum.GetValues(typeof(Class)))
+                foreach (Race c in Enum.GetValues(typeof(Race)))
                 {
-                    classes += c.ToString() + ",";
+                    races += c.ToString() + ",";
                 }
-                classes = classes.Substring(0, classes.Length - 1);
+                races = races.Substring(0, races.Length - 1);
 
-                return classes;
+                return races;
             }
         }
     }
