@@ -18,6 +18,9 @@ namespace DungeonExplorer.game
         [XmlElement(ElementName = "Msg")]
         public string Msg { get; set; }
 
+        [XmlElement(ElementName = "Chest")]
+        public bool Chest { get; set; }
+
         [XmlElement(ElementName = "Blocked")]
         public string BlockedMaps { get; set; }
 

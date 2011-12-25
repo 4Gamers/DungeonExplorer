@@ -77,6 +77,8 @@ namespace DungeonExplorer.game
                 if (Maps.MapExists(map) && Maps.getMap(map).From(this.Location))
                 {
                     this.Location = map;
+                    if (Maps.getMap(map).Chest)
+                        Console.WriteLine("You found a chest!");
                     if (this.Location == 45)
                         Console.WriteLine("You did it my hero! (THE END?)");
                     return true;
