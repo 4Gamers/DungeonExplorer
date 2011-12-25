@@ -11,8 +11,10 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="DungeonExplorer.game.Config">
-    <Position X="5" Y="2.5" Width="1.5" />
+    <Position X="5" Y="0.5" Width="1.5" />
     <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
@@ -33,14 +35,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DungeonExplorer.game.Player">
-    <Position X="1.5" Y="2.25" Width="1.5" />
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>QAAAAIEAAAAEABAAAAIgEAQAAgAIAQAAAAAAAAAAQCA=</HashCode>
       <FileName>game\Player.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Inv" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="DungeonExplorer.game.Game">
-    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Position X="1" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>game\Game.cs</FileName>
@@ -50,11 +59,62 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="DungeonExplorer.game.Commands">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Position X="1" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAIAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>game\Commands.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonExplorer.game.Inventory">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAACEEAAAAEAAA=</HashCode>
+      <FileName>game\Inventory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DungeonExplorer.game.Item">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>game\items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonExplorer.game.items.Key" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>game\items\Key.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonExplorer.game.Map" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAAQAAAAABAAAQAAAAABAAAEAAAAAAAAAA=</HashCode>
+      <FileName>game\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonExplorer.game.MapsData" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>game\MapData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Maps" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DungeonExplorer.xml.Maps" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>xml\Maps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MapsData" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Tahoma" Size="9" />
 </ClassDiagram>

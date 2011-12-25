@@ -41,7 +41,7 @@ namespace DungeonExplorer.game
 
         private string Location(Map location)
         {
-            return location.Msg.ToString();
+            return location.Msg;
         }
     }
 }
