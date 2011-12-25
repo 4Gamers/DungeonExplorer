@@ -16,10 +16,11 @@ namespace DungeonExplorer.game
         private int _playerHealth;
         private int LocationX = 2; // 1-9
         private int LocationY = 2; // 0-8
-        private Inventory Inv;
         #endregion
 
         #region Public
+        public Inventory Inv;
+
         public string Name
         {
             get { return _playerName; }

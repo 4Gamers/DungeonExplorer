@@ -25,6 +25,13 @@ namespace DungeonExplorer.game
                 case "take":
                 case "grab":
                     break;
+                case "inv":
+                case "inventory":
+                case "showinventory":
+                case "showinv":
+                case "i":
+                    Commands.ShowInventory(p);
+                    break;
                 case "exit":
                     Console.WriteLine("Are you sure you want to exit? (Y/N)");
                     if (Console.ReadLine() == "Y")
@@ -55,6 +62,11 @@ namespace DungeonExplorer.game
                     Console.WriteLine(methodInfo.Name.ToLower());
             }
             Console.WriteLine();
+        }
+
+        public static void ShowInventory(Player p)
+        {
+            p.Inv.Print();
         }
 
         public static bool Move(Player p, string[] cmd)
