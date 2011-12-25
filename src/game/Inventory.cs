@@ -28,20 +28,35 @@ namespace DungeonExplorer.game
 
         public void Print()
         {
-            int j; // just for the slot 1:
-            for (int i = 0; i < LIMIT; i++)
+            for (int j = 0; j < LIMIT/5; j++) // TABLE
             {
-                j = i+1;
-                Console.Write("slot "+j+": ");
-                if (items.Count > i)
+                // j * 5 = START INDEX
+                // (j+1)*5 = FINISH INDEX
+                // LIMIT = LIMIT
+
+                Console.Write("Slot:");
+                Console.Write("\t");
+                for (int i = j * 5; i < (j + 1) * 5 && i < LIMIT; i++) // Header
                 {
-                    Item item = items[i];
-                    Console.WriteLine(item.Name);
+                    Console.Write(i + 1);
+                    Console.Write("\t");
                 }
-                else
-                    Console.WriteLine("empty");
+                Console.WriteLine();
+
+                Console.Write("\t");
+                for (int i = j * 5; i < (j + 1) * 5 && i < LIMIT; i++) // Rows
+                {
+                    if (items.Count > i)
+                    {
+                        Item item = items[i];
+                        Console.Write(item.Name);
+                    }
+                    else
+                        Console.Write("empty");
+                    Console.Write("\t");
+                }
+                Console.WriteLine("\r\n"); // NEW LINE
             }
-            Console.WriteLine("\n");
         }
     }
 }
