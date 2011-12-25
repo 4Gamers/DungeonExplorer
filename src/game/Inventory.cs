@@ -9,14 +9,13 @@ namespace DungeonExplorer.game
 {
     class Inventory
     {
-        private Player p;
-        private List<Item> items = new List<Item>();
+        private Player _player;
+        private List<Item> __items = new List<Item>();
         private const int LIMIT = 10;
 
         public Inventory(Player p)
         {
-            this.p = p;
-
+            this._player = p;
         }
 
         /*
@@ -45,18 +44,18 @@ namespace DungeonExplorer.game
                     return;
             }
 
-            items.Add(i);
+            __items.Add(i);
         }
 
 
         public void Give(Item item)
         {
-            items.Add(item);
+            __items.Add(item);
         }
 
         public void Take(Item item)
         {
-            items.Remove(item);
+            __items.Remove(item);
         }
 
         public void Print()
@@ -79,9 +78,9 @@ namespace DungeonExplorer.game
                 Console.Write("\t");
                 for (int i = j * 5; i < (j + 1) * 5 && i < LIMIT; i++) // Rows
                 {
-                    if (items.Count > i)
+                    if (__items.Count > i)
                     {
-                        Item item = items[i];
+                        Item item = __items[i];
                         Console.Write(item.Name);
                     }
                     else

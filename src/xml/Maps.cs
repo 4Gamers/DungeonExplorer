@@ -16,6 +16,12 @@ namespace DungeonExplorer.xml
 
         static Maps()
         {
+            Console.WriteLine("Loading maps...");
+            Load();
+        }
+
+        public static void Load()
+        {
             XmlSerializer deserializer = new XmlSerializer(typeof(MapsData), new XmlRootAttribute("Maps"));
             XmlTextReader textReader = new XmlTextReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("DungeonExplorer.maps.xml"));
             textReader.Normalization = false;
@@ -23,6 +29,11 @@ namespace DungeonExplorer.xml
             textReader.Close();
             foreach (Map m in MapsData.Maps)
                 m.Blocked = m.BlockedMaps.Split(',').Select(n => int.Parse(n)).ToArray();
+        }
+
+        public static void Init()
+        {
+            Console.WriteLine("\tMaps loaded.");
         }
 
         public static bool MapExists(int loc)

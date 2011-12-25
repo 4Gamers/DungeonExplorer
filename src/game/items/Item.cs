@@ -23,6 +23,11 @@ namespace DungeonExplorer.game
             this.Type = "Item";
         }
 
+        public Item(string name) : this()
+        {
+            this.Name = name;
+        }
+
         public virtual void Randomize()
         {
         }

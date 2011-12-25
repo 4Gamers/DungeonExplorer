@@ -21,6 +21,7 @@ namespace DungeonExplorer.game
 
         #region Public
         public Inventory Inv;
+        public Equipment Equip;
 
         public string Name
         {
@@ -82,6 +83,7 @@ namespace DungeonExplorer.game
             this.Class = playerClass;
             this.Inv = new Inventory(this);
             this.Inv.GiveRandom("Key");
+            this.Equip = new Equipment(this);
 
             switch (this._playerRace)
             {
@@ -114,6 +116,8 @@ namespace DungeonExplorer.game
 
             Console.WriteLine("Hello {0}, what race were you born into?", name);
             string race = ReadRace(name);
+
+            System.Threading.Thread.Sleep(200); // Sleep
 
             Console.WriteLine("Hello {0} the {1}, what class are you trained as?", name, race);
             string _class = ReadClass(name);

@@ -12,15 +12,27 @@ namespace DungeonExplorer.game
 
         public Game()
         {
+            /* LOADING */
+            Maps.Init(); // Load map data
+
+            System.Threading.Thread.Sleep(500); // Sleep
+
+            Console.Clear();
+
             Console.Title = Config.GameName;
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Welcome to {0}", Config.GameName);
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();
+
             _p = Player.CreatePlayer(_p);
 
             Console.Clear();
+
+            Console.Beep(); // BEEP BEEP BEEP
+            Console.Beep();
+            Console.Beep();
 
             this.Start(); // Loop till exit
         }
