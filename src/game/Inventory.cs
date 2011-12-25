@@ -28,8 +28,11 @@ namespace DungeonExplorer.game
 
         public void Print()
         {
+            int j; // just for the slot 1:
             for (int i = 0; i < LIMIT; i++)
             {
+                j = i+1;
+                Console.Write("slot "+j+": ");
                 if (items.Count > i)
                 {
                     Item item = items[i];
@@ -38,6 +41,7 @@ namespace DungeonExplorer.game
                 else
                     Console.WriteLine("empty");
             }
+            Console.WriteLine("\n");
         }
     }
 }
