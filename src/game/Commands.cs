@@ -40,7 +40,7 @@ namespace DungeonExplorer.game
                     break;
                 case "exit":
                     Console.WriteLine("Are you sure you want to exit? (Y/N)");
-                    if (Console.ReadLine() == "Y")
+                    if (char.ToUpper(Console.ReadLine()[0]) == 'Y')
                         return false; // Lets exit
                     break;
                 default:
