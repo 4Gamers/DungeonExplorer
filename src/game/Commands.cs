@@ -14,16 +14,22 @@ namespace DungeonExplorer.game
             {
                 case "move":
                     if (!Commands.Move(p, command))
-                        Console.WriteLine("Blocked");
+                        Console.WriteLine("This way is blocked, try going another way.");
                     break;
                 case "use":
                 case "switch":
                 case "pull":
+
+                                // need to add levers and other stuff to pull in the map xml
+
                     break;
                 case "clear":
+                    Console.Clear();
                     break;
                 case "take":
                 case "grab":
+                    break;
+                case "open":
                     break;
                 case "inv":
                 case "inventory":
