@@ -13,6 +13,24 @@ namespace DungeonExplorer.game
 
         public enum Race { Dwarf = 1, Elf, Human, Orc, Halfling };
 
+        public enum Class { Fighter = 1, Wizard, Cleric, Rogue, Ranger };
+
+        public static string Classes
+        {
+            get
+            {
+                string classes = "";
+
+                foreach (Class c in Enum.GetValues(typeof(Class)))
+                {
+                    classes += c.ToString() + ",";
+                }
+                classes = classes.Substring(0, classes.Length - 1);
+
+                return classes;
+            }
+        }
+
         public static string Races // Class to string
         {
             get

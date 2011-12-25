@@ -74,7 +74,9 @@
     <None Include="Diagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="maps.xml" />
+    <EmbeddedResource Include="maps.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

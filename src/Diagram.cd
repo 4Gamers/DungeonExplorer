@@ -21,16 +21,21 @@
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
+      <Enum Name="DungeonExplorer.game.Config.Class" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>game\Config.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>IAAAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAA=</HashCode>
       <FileName>game\Config.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DungeonExplorer.game.Player">
     <Position X="1.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAAAAIEAAAAAAAAAAAAgAAQAAgAIAQAAAAAAAAAAQAA=</HashCode>
+      <HashCode>QAAAAIEAAAAEABAAAAIgEAQAAgAIAQAAAAAAAAAAQCA=</HashCode>
       <FileName>game\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -47,7 +52,7 @@
   <Class Name="DungeonExplorer.game.Commands">
     <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAEAAIAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>game\Commands.cs</FileName>
     </TypeIdentifier>
   </Class>

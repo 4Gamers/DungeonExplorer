@@ -12,6 +12,7 @@ namespace DungeonExplorer.game
     {
         #region Private
         private string _playerName;
+        private Config.Class _playerClass;
         private Config.Race _playerRace;
         private int _playerHealth;
         private int LocationX = 2; // 1-9
@@ -39,6 +40,13 @@ namespace DungeonExplorer.game
             set { _playerRace = (Config.Race)Enum.Parse(typeof(Config.Race), value); }
         }
 
+        public string Class
+        {
+            get { return Enum.GetName(typeof(Config.Class), _playerClass); }
+            set { _playerClass = (Config.Class)Enum.Parse(typeof(Config.Class), value); }
+        }
+        
+
         public int Hp
         {
             get { return _playerHealth; }
@@ -47,20 +55,21 @@ namespace DungeonExplorer.game
         #endregion
 
         public Player()
-            : this("Prisoner", "N/A")
+            : this("Prisoner", "N/A","Fighter")
         {
         }
 
-        public Player(string playerName, string playerRace)
-            : this(playerName, playerRace, 100)
+        public Player(string playerName, string playerRace, string playerClass)
+            : this(playerName, playerRace, playerClass, 100)
         {
         }
 
-        public Player(string playerName, string playerRace, int playerHealth)
+        public Player(string playerName, string playerRace, string playerClass, int playerHealth)
         {
             this.Name = playerName;
             this.Race = playerRace;
             this.Hp = playerHealth;
+            this.Class = playerClass;
             this.Inv = new Inventory(this);
 
             switch (this._playerRace)
@@ -95,7 +104,10 @@ namespace DungeonExplorer.game
             Console.WriteLine("Hello {0}, what race were you born into?", name);
             string race = ReadRace(name);
 
-            return new Player(name, race); // Create player
+            Console.WriteLine("Hello {0} the {1}, what class are you trained as?", name, race);
+            string _class = ReadClass(name);
+
+            return new Player(name, race, _class); // Create player
         }
 
         public static string ReadName()
@@ -105,6 +117,46 @@ namespace DungeonExplorer.game
             while (name == null)
                 name = Console.ReadLine();
             return name;
+        }
+
+        public static string ReadClass(string name)
+        {
+            Console.WriteLine(Config.Classes + "?");
+            string _class = Console.ReadLine();
+            _class = char.ToUpper(_class[0]) + _class.Substring(1).ToLower();
+
+            if (!Enum.IsDefined(typeof(Config.Class), _class))
+                return ReadClass(name); // Not exists, ask again
+
+            Config.Class c = (Config.Class)Enum.Parse(typeof(Config.Class), _class);
+
+            Console.WriteLine();
+            switch (c)
+            {
+                case Config.Class.Cleric:
+                    Console.WriteLine("Clerics are versatile figures, both capable in combat and skilled in the use of divine magic. Clerics are powerful healers due to the large number of healing and curative magics available to them. With divinely-granted abilities over life or death, they are also able to repel or control undead creatures.");
+                    break;
+                case Config.Class.Fighter:
+                    Console.WriteLine("A fighter is a versatile, weapons-oriented warrior who fights using skill, strategy and tactics.");
+                    break;
+                case Config.Class.Ranger:
+                    Console.WriteLine("They are protectors of nature, skilled woodsmen, archers and melee combat, and often live reclusive lives as hermits.");
+                    break;
+                case Config.Class.Rogue:
+                    Console.WriteLine(" A rogue is a versatile character, capable of sneaky combat and nimble tricks. The rogue is stealthy and dextrous, and currently the only official base class from the Player's Handbook capable of finding and disarming many traps and picking locks. The rogue also has the ability to sneak attack enemies who are caught off-guard or taken by surprise, inflicting extra damage.");
+                    break;
+                case Config.Class.Wizard:
+                    Console.WriteLine("A wizard uses arcane magic, and is considered less effective in melee combat than other classes.");
+                    break;
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Are you sure you are a {0}? (Y/N)", _class);
+
+            if (Console.ReadLine().ToUpper() != "Y")
+                return ReadClass(name); // Ask again
+
+            return _class;
         }
 
         public static string ReadRace(string name)
