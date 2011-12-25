@@ -12,7 +12,21 @@ namespace DungeonExplorer.game.items
         [XmlElement(ElementName = "For")]
         public int For { get; set; }
 
-        [XmlElement(ElementName = "Type")]
-        public string Type { get; set; }
+        public override string Name
+        {
+            get { return String.Format("Key {0:D2}", For); }
+        }
+
+
+        public Key()
+        {
+            this.Type = "Key";
+        }
+
+        public override void Randomize()
+        {
+            base.Randomize();
+            For = Config.rnd.Next(0, 5);
+        }
     }
 }

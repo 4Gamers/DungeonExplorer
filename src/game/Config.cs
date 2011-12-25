@@ -11,9 +11,13 @@ namespace DungeonExplorer.game
         public static string GameName = "Dungeon Explorer";
         public static string Version = "0.0.0";
 
+        public static Random rnd = new Random();
+
         public enum Race { Dwarf = 1, Elf, Human, Orc, Halfling };
 
         public enum Class { Fighter = 1, Wizard, Cleric, Rogue, Ranger };
+
+        public enum ItemType { Key = 1, Weapon };
 
         public static string Classes
         {

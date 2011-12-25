@@ -28,6 +28,11 @@
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
+      <Enum Name="DungeonExplorer.game.Config.ItemType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>game\Config.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
     </NestedTypes>
     <TypeIdentifier>
       <HashCode>IAAAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAA=</HashCode>
@@ -68,7 +73,7 @@
   <Class Name="DungeonExplorer.game.Inventory">
     <Position X="3" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAACEEAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAQAAQAACEEAAAAEAAA=</HashCode>
       <FileName>game\Inventory.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
@@ -78,14 +83,14 @@
   <Class Name="DungeonExplorer.game.Item">
     <Position X="7.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAASAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>game\items\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DungeonExplorer.game.items.Key" Collapsed="true">
     <Position X="5.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>game\items\Key.cs</FileName>
     </TypeIdentifier>
   </Class>

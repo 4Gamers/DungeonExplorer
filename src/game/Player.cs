@@ -55,7 +55,17 @@ namespace DungeonExplorer.game
         #endregion
 
         public Player()
-            : this("Prisoner", "N/A","Fighter")
+            : this("Prisoner")
+        {
+        }
+
+        public Player(string playerName)
+            : this(playerName, "N/A")
+        {
+        }
+
+        public Player(string playerName, string playerRace)
+            : this(playerName, playerRace, "N/A")
         {
         }
 
@@ -71,6 +81,7 @@ namespace DungeonExplorer.game
             this.Hp = playerHealth;
             this.Class = playerClass;
             this.Inv = new Inventory(this);
+            this.Inv.GiveRandom("Key");
 
             switch (this._playerRace)
             {

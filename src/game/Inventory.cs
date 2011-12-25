@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Reflection;
+using DungeonExplorer.game.items;
 
 namespace DungeonExplorer.game
 {
@@ -14,7 +16,38 @@ namespace DungeonExplorer.game
         public Inventory(Player p)
         {
             this.p = p;
+
         }
+
+        /*
+         * string type = Item type
+         * */
+        public void GiveRandom(string type)
+        {
+            if (!Enum.IsDefined(typeof(Config.ItemType), type))
+                return; // Not exists
+
+            Config.ItemType itemType = (Config.ItemType)Enum.Parse(typeof(Config.ItemType), type); // Item type
+
+            Item i;
+
+            switch (itemType) // Randomize
+            {
+                case Config.ItemType.Weapon:
+                    i = new Weapon();
+                    (i as Weapon).Randomize();
+                    break;
+                case Config.ItemType.Key:
+                    i = new Key();
+                    (i as Key).Randomize();
+                    break;
+                default:
+                    return;
+            }
+
+            items.Add(i);
+        }
+
 
         public void Give(Item item)
         {

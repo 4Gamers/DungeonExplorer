@@ -13,6 +13,18 @@ namespace DungeonExplorer.game
         public int Id { get; set; }
 
         [XmlElement(ElementName = "Name")]
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
+
+        [XmlElement(ElementName = "Type")]
+        public string Type { get; set; }
+
+        public Item()
+        {
+            this.Type = "Item";
+        }
+
+        public virtual void Randomize()
+        {
+        }
     }
 }
