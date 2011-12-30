@@ -101,6 +101,8 @@ namespace DungeonExplorer.game
                     this.Location = map;
                     if (Maps.getMap(map).Chest)
                         Console.WriteLine("You found a chest!");
+                    if (Maps.getMap(map).Fight)
+                        Console.WriteLine("Get ready for a fight!");
                     if (this.Location == 45)
                         Console.WriteLine("You did it my hero! (THE END?)");
                     return true;
