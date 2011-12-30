@@ -12,6 +12,9 @@ namespace DungeonExplorer.game
         [XmlElement(ElementName = "Id")]
         public int Id { get; set; }
 
+        [XmlElement(ElementName = "Fight")]
+        public bool Fight { get; set; }
+
         [XmlElement(ElementName = "Name")]
         public string Name { get; set; }
 
