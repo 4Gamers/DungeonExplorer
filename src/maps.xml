@@ -2,6 +2,7 @@
 <Maps>
   <Map>
     <Id>0</Id>
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -9,6 +10,7 @@
   </Map>
   <Map>
     <Id>1</Id>
+    <Fight>false</Fight>
     <Name>Home</Name>
     <Chest>false</Chest>
     <Blocked>2</Blocked>
@@ -20,6 +22,7 @@
   </Map>
   <Map>
     <Id>2</Id>
+    <Fight>false</Fight>
     <Name>Home2</Name>
     <Chest>false</Chest>
     <Blocked>1</Blocked>
@@ -31,6 +34,7 @@
   </Map>
   <Map>
     <Id>3</Id>
+    <Fight>false</Fight>
     <Name>Home3</Name>
     <Chest>false</Chest>
     <Blocked>13</Blocked>
@@ -41,7 +45,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>4</Id>
+    <Id>4</Id>  
+    <Fight>false</Fight>
     <Name>Home4</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -52,7 +57,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>5</Id>
+    <Id>5</Id>  
+    <Fight>false</Fight>
     <Name>Home5</Name>
     <Chest>false</Chest>
     <Blocked>15</Blocked>
@@ -64,6 +70,7 @@
   </Map>
   <Map>
     <Id>6</Id>
+    <Fight>false</Fight>
     <Name>Home6</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -75,6 +82,7 @@
   </Map>
   <Map>
     <Id>7</Id>
+    <Fight>false</Fight>
     <Name>Home7</Name>
     <Chest>false</Chest>
     <Blocked>8</Blocked>
@@ -86,6 +94,7 @@
   </Map>
   <Map>
     <Id>8</Id>
+    <Fight>false</Fight>
     <Name>Home8</Name>
     <Chest>false</Chest>
     <Blocked>7</Blocked>
@@ -97,6 +106,7 @@
   </Map>
   <Map>
     <Id>9</Id>
+    <Fight>false</Fight>
     <Name>Home9</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -108,6 +118,7 @@
   </Map>
   <Map>
     <Id>10</Id>
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -117,6 +128,7 @@
   </Map>
   <Map>
     <Id>11</Id>
+    <Fight>false</Fight>
     <Name>Home11</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -128,6 +140,7 @@
   </Map>
   <Map>
     <Id>12</Id>
+    <Fight>false</Fight>
     <Name>Home12</Name>
     <Chest>false</Chest>
     <Blocked>22</Blocked>
@@ -139,6 +152,7 @@
   </Map>
   <Map>
     <Id>13</Id>
+    <Fight>false</Fight>
     <Name>Home13</Name>
     <Chest>false</Chest>
     <Blocked>3,14</Blocked>
@@ -150,6 +164,7 @@
   </Map>
   <Map>
     <Id>14</Id>
+    <Fight>false</Fight>
     <Name>Home14</Name>
     <Chest>false</Chest>
     <Blocked>13,15</Blocked>
@@ -161,6 +176,7 @@
   </Map>
   <Map>
     <Id>15</Id>
+    <Fight>false</Fight>
     <Name>Home15</Name>
     <Chest>false</Chest>
     <Blocked>14,5,16</Blocked>
@@ -172,6 +188,7 @@
   </Map>
   <Map>
     <Id>16</Id>
+    <Fight>false</Fight>
     <Name>Home16</Name>
     <Chest>false</Chest>
     <Blocked>15,17</Blocked>
@@ -183,6 +200,7 @@
   </Map>
   <Map>
     <Id>17</Id>
+    <Fight>false</Fight>
     <Name>Home17</Name>
     <Chest>false</Chest>
     <Blocked>16,18</Blocked>
@@ -194,6 +212,7 @@
   </Map>
   <Map>
     <Id>18</Id>
+    <Fight>false</Fight>
     <Name>Home18</Name>
     <Chest>true</Chest>
     <Blocked>17,28,19</Blocked>
@@ -205,6 +224,7 @@
   </Map>
   <Map>
     <Id>19</Id>
+    <Fight>false</Fight>
     <Name>Home19</Name>
     <Chest>false</Chest>
     <Blocked>18</Blocked>
@@ -216,6 +236,7 @@
   </Map>
   <Map>
     <Id>20</Id>
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -224,7 +245,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>21</Id>
+    <Id>21</Id> 
+    <Fight>true</Fight>
     <Name>Home21</Name>
     <Chest>false</Chest>
     <Blocked>22</Blocked>
@@ -235,7 +257,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>22</Id>
+    <Id>22</Id> 
+    <Fight>false</Fight>
     <Name>Home22</Name>
     <Chest>false</Chest>
     <Blocked>21,12,23</Blocked>
@@ -246,7 +269,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>23</Id>
+    <Id>23</Id> 
+    <Fight>false</Fight>
     <Name>Home23</Name>
     <Chest>false</Chest>
     <Blocked>22,24</Blocked>
@@ -257,7 +281,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>24</Id>
+    <Id>24</Id> 
+    <Fight>false</Fight>
     <Name>Home24</Name>
     <Chest>false</Chest>
     <Blocked>23,25</Blocked>
@@ -268,7 +293,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>25</Id>
+    <Id>25</Id> 
+    <Fight>false</Fight>
     <Name>Home25</Name>
     <Chest>false</Chest>
     <Blocked>24,35</Blocked>
@@ -279,7 +305,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>26</Id>
+    <Id>26</Id> 
+    <Fight>false</Fight>
     <Name>Home26</Name>
     <Chest>false</Chest>
     <Blocked>36,27</Blocked>
@@ -290,7 +317,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>27</Id>
+    <Id>27</Id> 
+    <Fight>false</Fight>
     <Name>Home27</Name>
     <Chest>false</Chest>
     <Blocked>26,37</Blocked>
@@ -302,6 +330,7 @@
   </Map>
   <Map>
     <Id>28</Id>
+    <Fight>false</Fight>
     <Name>Home28</Name>
     <Chest>false</Chest>
     <Blocked>18,38</Blocked>
@@ -313,6 +342,7 @@
   </Map>
   <Map>
     <Id>29</Id>
+    <Fight>false</Fight>
     <Name>Home29</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -324,6 +354,7 @@
   </Map>
   <Map>
     <Id>30</Id>
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -333,6 +364,7 @@
   </Map>
   <Map>
     <Id>31</Id>
+    <Fight>false</Fight>
     <Name>Home31</Name>
     <Chest>false</Chest>
     <Blocked>41</Blocked>
@@ -343,7 +375,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>32</Id>
+    <Id>32</Id> 
+    <Fight>false</Fight>
     <Name>Home32</Name>
     <Chest>true</Chest>
     <Blocked>42,33</Blocked>
@@ -355,6 +388,7 @@
   </Map>
   <Map>
     <Id>33</Id>
+    <Fight>false</Fight>
     <Name>Home33</Name>
     <Chest>false</Chest>
     <Blocked>32,34</Blocked>
@@ -366,6 +400,7 @@
   </Map>
   <Map>
     <Id>34</Id>
+    <Fight>false</Fight>
     <Name>Home34</Name>
     <Chest>false</Chest>
     <Blocked>33,44</Blocked>
@@ -377,6 +412,7 @@
   </Map>
   <Map>
     <Id>35</Id>
+    <Fight>false</Fight>
     <Name>Home35</Name>
     <Chest>false</Chest>
     <Blocked>25,45</Blocked>
@@ -387,7 +423,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>36</Id>
+    <Id>36</Id> 
+    <Fight>false</Fight>
     <Name>Home36</Name>
     <Chest>false</Chest>
     <Blocked>26,37</Blocked>
@@ -399,6 +436,7 @@
   </Map>
   <Map>
     <Id>37</Id>
+    <Fight>false</Fight>
     <Name>Home37</Name>
     <Chest>false</Chest>
     <Blocked>36,27</Blocked>
@@ -410,6 +448,7 @@
   </Map>
   <Map>
     <Id>38</Id>
+    <Fight>false</Fight>
     <Name>Home38</Name>
     <Chest>false</Chest>
     <Blocked>28,39</Blocked>
@@ -420,7 +459,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>39</Id>
+    <Id>39</Id> 
+    <Fight>false</Fight>
     <Name>Home39</Name>
     <Chest>false</Chest>
     <Blocked>38</Blocked>
@@ -432,6 +472,7 @@
   </Map>
   <Map>
     <Id>40</Id>
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -441,6 +482,7 @@
   </Map>
   <Map>
     <Id>41</Id>
+    <Fight>false</Fight>
     <Name>Home41</Name>
     <Chest>false</Chest>
     <Blocked>31</Blocked>
@@ -451,7 +493,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>42</Id>
+    <Id>42</Id> 
+    <Fight>false</Fight>
     <Name>Home42</Name>
     <Chest>false</Chest>
     <Blocked>32</Blocked>
@@ -463,6 +506,7 @@
   </Map>
   <Map>
     <Id>43</Id>
+    <Fight>false</Fight>
     <Name>Home43</Name>
     <Chest>false</Chest>
     <Blocked>53</Blocked>
@@ -473,6 +517,7 @@
     </Msg>
     <Map>
       <Id>44</Id>
+      <Fight>false</Fight>
       <Name>Home44</Name>
       <Chest>false</Chest>
       <Blocked>34,54,45</Blocked>
@@ -484,7 +529,8 @@
     </Map>
   </Map>
   <Map>
-    <Id>45</Id>
+    <Id>45</Id> 
+    <Fight>false</Fight>
     <Name>Home45</Name>
     <Chest>false</Chest>
     <Blocked>35,44</Blocked>
@@ -496,6 +542,7 @@
   </Map>
   <Map>
     <Id>46</Id>
+    <Fight>false</Fight>
     <Name>Home46</Name>
     <Chest>true</Chest>
     <Blocked>47</Blocked>
@@ -507,6 +554,7 @@
   </Map>
   <Map>
     <Id>47</Id>
+    <Fight>false</Fight>
     <Name>Home47</Name>
     <Chest>false</Chest>
     <Blocked>46,48</Blocked>
@@ -518,6 +566,7 @@
   </Map>
   <Map>
     <Id>48</Id>
+    <Fight>false</Fight>
     <Name>Home48</Name>
     <Chest>false</Chest>
     <Blocked>47,49</Blocked>
@@ -528,7 +577,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>49</Id>
+    <Id>49</Id> 
+    <Fight>false</Fight>
     <Name>Home49</Name>
     <Chest>false</Chest>
     <Blocked>48</Blocked>
@@ -539,7 +589,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>50</Id>
+    <Id>50</Id> 
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -549,6 +600,7 @@
   </Map>
   <Map>
     <Id>51</Id>
+    <Fight>false</Fight>
     <Name>Home51</Name>
     <Chest>false</Chest>
     <Blocked>52</Blocked>
@@ -560,6 +612,7 @@
   </Map>
   <Map>
     <Id>52</Id>
+    <Fight>false</Fight>
     <Name>Home52</Name>
     <Chest>false</Chest>
     <Blocked>51,53,62</Blocked>
@@ -571,6 +624,7 @@
   </Map>
   <Map>
     <Id>53</Id>
+    <Fight>false</Fight>
     <Name>Home53</Name>
     <Chest>false</Chest>
     <Blocked>52,43</Blocked>
@@ -582,6 +636,7 @@
   </Map>
   <Map>
     <Id>54</Id>
+    <Fight>false</Fight>
     <Name>Home54</Name>
     <Chest>false</Chest>
     <Blocked>44,64</Blocked>
@@ -593,6 +648,7 @@
   </Map>
   <Map>
     <Id>55</Id>
+    <Fight>false</Fight>
     <Name>Home55</Name>
     <Chest>true</Chest>
     <Blocked>65</Blocked>
@@ -604,6 +660,7 @@
   </Map>
   <Map>
     <Id>56</Id>
+    <Fight>false</Fight>
     <Name>Home56</Name>
     <Chest>true</Chest>
     <Blocked>66</Blocked>
@@ -614,7 +671,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>57</Id>
+    <Id>57</Id> 
+    <Fight>false</Fight>
     <Name>Home57</Name>
     <Chest>false</Chest>
     <Blocked>67,58</Blocked>
@@ -625,7 +683,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>58</Id>
+    <Id>58</Id> 
+    <Fight>false</Fight>
     <Name>Home58</Name>
     <Chest>false</Chest>
     <Blocked>57</Blocked>
@@ -637,6 +696,7 @@
   </Map>
   <Map>
     <Id>59</Id>
+    <Fight>false</Fight>
     <Name>Home59</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -647,7 +707,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>60</Id>
+    <Id>60</Id> 
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -656,7 +717,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>61</Id>
+    <Id>61</Id> 
+    <Fight>false</Fight>
     <Name>Home61</Name>
     <Chest>false</Chest>
     <Blocked>71</Blocked>
@@ -668,6 +730,7 @@
   </Map>
   <Map>
     <Id>62</Id>
+    <Fight>false</Fight>
     <Name>Home62</Name>
     <Chest>false</Chest>
     <Blocked>52,63</Blocked>
@@ -678,7 +741,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>63</Id>
+    <Id>63</Id> 
+    <Fight>false</Fight>
     <Name>Home63</Name>
     <Chest>false</Chest>
     <Blocked>62,64</Blocked>
@@ -689,7 +753,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>64</Id>
+    <Id>64</Id> 
+    <Fight>false</Fight>
     <Name>Home64</Name>
     <Chest>false</Chest>
     <Blocked>63,54,74</Blocked>
@@ -700,7 +765,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>65</Id>
+    <Id>65</Id> 
+    <Fight>false</Fight>
     <Name>Home65</Name>
     <Chest>false</Chest>
     <Blocked>55</Blocked>
@@ -711,7 +777,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>66</Id>
+    <Id>66</Id> 
+    <Fight>false</Fight>
     <Name>Home66</Name>
     <Chest>false</Chest>
     <Blocked>56,76</Blocked>
@@ -722,7 +789,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>67</Id>
+    <Id>67</Id> 
+    <Fight>false</Fight>
     <Name>Home67</Name>
     <Chest>false</Chest>
     <Blocked>57,77</Blocked>
@@ -734,6 +802,7 @@
   </Map>
   <Map>
     <Id>68</Id>
+    <Fight>false</Fight>
     <Name>Home68</Name>
     <Chest>false</Chest>
     <Blocked>69</Blocked>
@@ -744,7 +813,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>69</Id>
+    <Id>69</Id> 
+    <Fight>false</Fight>
     <Name>Home69</Name>
     <Chest>false</Chest>
     <Blocked>68</Blocked>
@@ -756,6 +826,7 @@
   </Map>
   <Map>
     <Id>70</Id>
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -764,7 +835,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>71</Id>
+    <Id>71</Id> 
+    <Fight>false</Fight>
     <Name>Home71</Name>
     <Chest>false</Chest>
     <Blocked>61,72</Blocked>
@@ -775,7 +847,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>72</Id>
+    <Id>72</Id> 
+    <Fight>false</Fight>
     <Name>Home72</Name>
     <Chest>false</Chest>
     <Blocked>71</Blocked>
@@ -786,7 +859,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>73</Id>
+    <Id>73</Id> 
+    <Fight>false</Fight>
     <Name>Home73</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -797,7 +871,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>74</Id>
+    <Id>74</Id> 
+    <Fight>false</Fight>
     <Name>Home74</Name>
     <Chest>false</Chest>
     <Blocked>64,75,84</Blocked>
@@ -808,7 +883,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>75</Id>
+    <Id>75</Id> 
+    <Fight>false</Fight>
     <Name>Home75</Name>
     <Chest>true</Chest>
     <Blocked>74,85,76</Blocked>
@@ -819,7 +895,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>76</Id>
+    <Id>76</Id> 
+    <Fight>false</Fight>
     <Name>Home76</Name>
     <Chest>false</Chest>
     <Blocked>75,66</Blocked>
@@ -830,7 +907,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>77</Id>
+    <Id>77</Id> 
+    <Fight>false</Fight>
     <Name>Home77</Name>
     <Chest>false</Chest>
     <Blocked>67,87</Blocked>
@@ -841,7 +919,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>78</Id>
+    <Id>78</Id> 
+    <Fight>false</Fight>
     <Name>Home78</Name>
     <Chest>false</Chest>
     <Blocked>88,79</Blocked>
@@ -852,7 +931,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>79</Id>
+    <Id>79</Id> 
+    <Fight>false</Fight>
     <Name>Home79</Name>
     <Chest>false</Chest>
     <Blocked>78,89</Blocked>
@@ -863,7 +943,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>80</Id>
+    <Id>80</Id> 
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -872,7 +953,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>81</Id>
+    <Id>81</Id> 
+    <Fight>false</Fight>
     <Name>Home81</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -883,7 +965,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>82</Id>
+    <Id>82</Id> 
+    <Fight>false</Fight>
     <Name>Home82</Name>
     <Chest>false</Chest>
     <Blocked>83</Blocked>
@@ -894,7 +977,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>83</Id>
+    <Id>83</Id> 
+    <Fight>false</Fight>
     <Name>Home83</Name>
     <Chest>false</Chest>
     <Blocked>82</Blocked>
@@ -905,7 +989,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>84</Id>
+    <Id>84</Id> 
+    <Fight>false</Fight>
     <Name>Home84</Name>
     <Chest>true</Chest>
     <Blocked>74,85</Blocked>
@@ -916,7 +1001,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>85</Id>
+    <Id>85</Id> 
+    <Fight>false</Fight>
     <Name>Home85</Name>
     <Chest>false</Chest>
     <Blocked>84,75</Blocked>
@@ -927,7 +1013,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>86</Id>
+    <Id>86</Id> 
+    <Fight>false</Fight>
     <Name>Home86</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
@@ -938,7 +1025,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>87</Id>
+    <Id>87</Id> 
+    <Fight>false</Fight>
     <Name>Home87</Name>
     <Chest>false</Chest>
     <Blocked>77</Blocked>
@@ -949,7 +1037,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>88</Id>
+    <Id>88</Id> 
+    <Fight>false</Fight>
     <Name>Home88</Name>
     <Chest>false</Chest>
     <Blocked>78</Blocked>
@@ -960,7 +1049,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>89</Id>
+    <Id>89</Id> 
+    <Fight>false</Fight>
     <Name>Home89</Name>
     <Chest>true</Chest>
     <Blocked>79</Blocked>
@@ -971,7 +1061,8 @@
     </Msg>
   </Map>
   <Map>
-    <Id>90</Id>
+    <Id>90</Id> 
+    <Fight>false</Fight>
     <Name>Blank</Name>
     <Chest>false</Chest>
     <Blocked>0</Blocked>
