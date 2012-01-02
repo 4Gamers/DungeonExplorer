@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="game\Commands.cs" />
     <Compile Include="game\Config.cs" />
+    <Compile Include="game\ItemsData.cs" />
     <Compile Include="game\Equipment.cs" />
     <Compile Include="game\Game.cs" />
     <Compile Include="game\Inventory.cs" />
@@ -70,21 +71,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="xml\Items.cs" />
     <Compile Include="xml\Maps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Diagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="maps.xml">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="data\items.xml" />
+    <EmbeddedResource Include="data\maps.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

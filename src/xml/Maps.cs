@@ -23,7 +23,7 @@ namespace DungeonExplorer.xml
         public static void Load()
         {
             XmlSerializer deserializer = new XmlSerializer(typeof(MapsData), new XmlRootAttribute("Maps"));
-            XmlTextReader textReader = new XmlTextReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("DungeonExplorer.maps.xml"));
+            XmlTextReader textReader = new XmlTextReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("DungeonExplorer.data.maps.xml"));
             textReader.Normalization = false;
             MapsData = (MapsData)deserializer.Deserialize(textReader);
             textReader.Close();

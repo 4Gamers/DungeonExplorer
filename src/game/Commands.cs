@@ -8,12 +8,42 @@ namespace DungeonExplorer.game
 {
     static class Commands
     {
+        private static List<string> _commands = new List<string>();
+
+        static Commands()
+        { 
+            // get all public static methods of MyClass type
+            MethodInfo[] methodInfos = typeof(Commands).GetMethods(BindingFlags.Public |
+                                                                  BindingFlags.Static).Where(x => x.Name != "Handle" && x.Name != "Commands").ToArray();
+            // sort methods by name
+            /*Array.Sort(methodInfos,
+                    delegate(MethodInfo methodInfo1, MethodInfo methodInfo2)
+                    { return methodInfo1.Name.CompareTo(methodInfo2.Name); });*/
+
+            // write method names
+            foreach (MethodInfo methodInfo in methodInfos)
+            {
+                string command = methodInfo.Name.ToLower();
+
+                switch (command)
+                {
+                    case "move":
+                        command += " (n/s/w/e)";
+                        break;
+                }
+
+                _commands.Add(command);
+                
+            }
+
+        }
+
         public static bool Handle(Player p, string[] command)
         {
             switch (command[0]) // Command Handler
             {
                 case "move":
-                    if (!Commands.Move(p, command))
+                    if (Commands.Move(p, command) == 0)
                         Console.WriteLine("This way is blocked, try going another way.");
                     break;
                 case "use":
@@ -53,20 +83,9 @@ namespace DungeonExplorer.game
 
         public static void Help()
         {
-            // get all public static methods of MyClass type
-            MethodInfo[] methodInfos = typeof(Commands).GetMethods(BindingFlags.Public |
-                                                                  BindingFlags.Static).Where(x => x.Name != "Handle").ToArray();
-            // sort methods by name
-            /*Array.Sort(methodInfos,
-                    delegate(MethodInfo methodInfo1, MethodInfo methodInfo2)
-                    { return methodInfo1.Name.CompareTo(methodInfo2.Name); });*/
-
-            // write method names
             Console.WriteLine();
-            foreach (MethodInfo methodInfo in methodInfos)
-            {
-                    Console.WriteLine(methodInfo.Name.ToLower());
-            }
+            foreach (string cmd in Commands._commands)
+                Console.WriteLine(cmd);
             Console.WriteLine();
         }
 
@@ -75,7 +94,7 @@ namespace DungeonExplorer.game
             p.Inv.Print();
         }
 
-        public static bool Move(Player p, string[] cmd)
+        public static int Move(Player p, string[] cmd)
         {
             char where;
 
@@ -102,10 +121,9 @@ namespace DungeonExplorer.game
                     break;
                 default:
                     Console.WriteLine("Type: move n/e/s/w");
-                    return false;
+                    return -1;
             }
-
-            return p.ChangeMap(mapTo);
+            return (p.ChangeMap(mapTo) == true) ? 1 : 0;
         }
     }
 }

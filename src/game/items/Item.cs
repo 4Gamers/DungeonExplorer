@@ -7,7 +7,7 @@ using DungeonExplorer.xml;
 
 namespace DungeonExplorer.game
 {
-    class Item
+    public class Item
     {
         [XmlElement(ElementName = "Id")]
         public int Id { get; set; }

@@ -62,18 +62,58 @@ namespace DungeonExplorer.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Items&gt;
+        ///  &lt;Weapons&gt;
+        ///    &lt;GreatSword&gt;
+        ///      &lt;name&gt;GreatSword&lt;/name&gt;
+        ///      &lt;hands&gt;2&lt;/hands&gt;
+        ///      &lt;baseDamage&gt;16&lt;/baseDamage&gt;
+        ///      &lt;critChange&gt;10&lt;/critChange&gt;
+        ///      &lt;critMultiply&gt;2&lt;/critMultiply&gt;
+        ///    &lt;/GreatSword&gt;
+        ///    &lt;prefix&gt;
+        ///      &lt;fire&gt;
+        ///        &lt;flaming&gt;
+        ///          &lt;name&gt;flaming&lt;/name&gt;
+        ///          &lt;damage&gt;1d6&lt;/damage&gt;
+        ///          &lt;type&gt;fire&lt;/type&gt;
+        ///        &lt;/flaming&gt;
+        ///      &lt;/fire&gt;
+        ///      &lt;ice&gt;
+        ///        &lt;frost&gt;
+        ///          &lt;name&gt;frost&lt;/name&gt;
+        ///          &lt;dama [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string items {
+            get {
+                return ResourceManager.GetString("items", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;Maps&gt;
+        ///  &lt;Map&gt;
+        ///    &lt;Id&gt;0&lt;/Id&gt;
+        ///    &lt;Name&gt;Blank&lt;/Name&gt;
+        ///    &lt;Chest&gt;false&lt;/Chest&gt;
+        ///    &lt;Blocked&gt;0&lt;/Blocked&gt;
+        ///    &lt;Msg&gt;Don&apos;t change this&lt;/Msg&gt;
+        ///  &lt;/Map&gt;
         ///  &lt;Map&gt;
         ///    &lt;Id&gt;1&lt;/Id&gt;
         ///    &lt;Name&gt;Home&lt;/Name&gt;
-        ///    &lt;Msg&gt;You find your self in a locked cellar in a dungeon.\nPlease choose your action.\n(you can type HELP for your commands list).&lt;/Msg&gt;
+        ///    &lt;Chest&gt;false&lt;/Chest&gt;
+        ///    &lt;Blocked&gt;2&lt;/Blocked&gt;
+        ///    &lt;Msg&gt;
+        ///      You find your self in a locked cellar in a dungeon.
+        ///      Please choose your action.
+        ///      (You can type HELP for your commands list).
+        ///    &lt;/Msg&gt;
         ///  &lt;/Map&gt;
         ///  &lt;Map&gt;
         ///    &lt;Id&gt;2&lt;/Id&gt;
-        ///    &lt;Name&gt;Home2&lt;/Name&gt;
-        ///    &lt;Msg&gt;2You find your self in a locked cellar in a dungeon.\nPlease choose your action.\n(you can type HELP for your commands list).&lt;/Msg&gt;
-        ///  &lt;/Map&gt;
-        ///&lt;/Maps&gt;.
+        ///    &lt;Name&gt;Home2&lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
         public static string maps {
             get {
