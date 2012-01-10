@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Reflection;
 using DungeonExplorer.game.items;
+using DungeonExplorer.xml;
 
 namespace DungeonExplorer.game
 {
@@ -26,23 +27,8 @@ namespace DungeonExplorer.game
             if (!Enum.IsDefined(typeof(Config.ItemType), type))
                 return; // Not exists
 
-            Config.ItemType itemType = (Config.ItemType)Enum.Parse(typeof(Config.ItemType), type); // Item type
+            Item i = Items.Random(type);
 
-            Item i;
-
-            switch (itemType) // Randomize
-            {
-                case Config.ItemType.Weapon:
-                    i = new Weapon();
-                    (i as Weapon).Randomize();
-                    break;
-                case Config.ItemType.Key:
-                    i = new Key();
-                    (i as Key).Randomize();
-                    break;
-                default:
-                    return;
-            }
 
             __items.Add(i);
         }

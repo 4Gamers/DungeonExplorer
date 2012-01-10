@@ -7,7 +7,7 @@ using DungeonExplorer.xml;
 
 namespace DungeonExplorer.game.items
 {
-    class Key : Item
+    public class Key : Item
     {
         [XmlElement(ElementName = "For")]
         public int For { get; set; }
@@ -25,8 +25,8 @@ namespace DungeonExplorer.game.items
 
         public override void Randomize()
         {
+            For = Config.rnd.Next(1, 5);
             base.Randomize();
-            For = Config.rnd.Next(0, 5);
         }
     }
 }

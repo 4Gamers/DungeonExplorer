@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
 using DungeonExplorer.xml;
+using DungeonExplorer.game.items;
 
 namespace DungeonExplorer.game
 {
@@ -17,6 +18,15 @@ namespace DungeonExplorer.game
 
         [XmlElement(ElementName = "Type")]
         public string Type { get; set; }
+
+        [XmlIgnore]
+        public Config.ItemType ItemType
+        {
+            get
+            {
+                return (Config.ItemType)Enum.Parse(typeof(Config.ItemType), this.Type); // Item type
+            }
+        }
 
         public Item()
         {

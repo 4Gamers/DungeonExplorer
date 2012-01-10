@@ -14,10 +14,19 @@ namespace DungeonExplorer.game
         {
             /* LOADING */
             Maps.Init(); // Load map data
+            Items.Init(); // Load items data
+
 
             System.Threading.Thread.Sleep(500); // Sleep
 
             Console.Clear();
+
+            //Console.WriteLine((Items.Random("Key") as DungeonExplorer.game.items.Key).For);
+            /*Console.WriteLine(Items.Random("Key").Name);
+            Console.WriteLine(Items.Random("Weapon").Name);
+            Console.WriteLine(Items.Random("Key").Name);
+            Console.WriteLine(Items.Random("Weapon").Name);*/
+            Console.WriteLine(Items.Random().Name);
 
             Console.Title = Config.GameName;
             Console.WriteLine();

@@ -7,10 +7,12 @@ using DungeonExplorer.game.items;
 
 namespace DungeonExplorer.game
 {
-    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute("ItemsData")]
     public class ItemsData
     {
-        [XmlElement("Item")]
+        [XmlArray("Items")]
+        [XmlArrayItem("Keys", typeof(Key))]
+        [XmlArrayItem("Weapons", typeof(Weapon))]     
         public List<Item> Items { get; set; }
 
         public ItemsData()
