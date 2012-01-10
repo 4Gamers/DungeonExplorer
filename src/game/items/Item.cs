@@ -10,13 +10,13 @@ namespace DungeonExplorer.game
 {
     public class Item
     {
-        [XmlElement(ElementName = "Id")]
+        [XmlElementAttribute(ElementName = "Id")]
         public int Id { get; set; }
 
-        [XmlElement(ElementName = "Name")]
+        [XmlElementAttribute(ElementName = "Name")]
         public virtual string Name { get; set; }
 
-        [XmlElement(ElementName = "Type")]
+        [XmlElementAttribute(ElementName = "Type")]
         public string Type { get; set; }
 
         [XmlIgnore]

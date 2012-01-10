@@ -6,7 +6,7 @@ using DungeonExplorer.xml;
 
 namespace DungeonExplorer.game.items
 {
-    class Chest : Item
+    public class Chest : Item
     {
         private Item[] _items;
 

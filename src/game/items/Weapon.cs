@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace DungeonExplorer.game.items
 {
@@ -12,7 +13,8 @@ namespace DungeonExplorer.game.items
 
         public Weapon()
         {
-            this.Type = "Weapon";
+            if (this.Type == "Item")
+                this.Type = "Weapon";
         }
 
         public override void Randomize()

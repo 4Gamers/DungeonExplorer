@@ -11,8 +11,10 @@ namespace DungeonExplorer.game
     public class ItemsData
     {
         [XmlArray("Items")]
-        [XmlArrayItem("Keys", typeof(Key))]
-        [XmlArrayItem("Weapons", typeof(Weapon))]     
+        [XmlArrayItem("Item", typeof(Item))]
+        [XmlArrayItem("Key", typeof(Key))]
+        [XmlArrayItem("Weapon", typeof(Weapon))]
+        [XmlArrayItem("Chest", typeof(Chest))]     
         public List<Item> Items { get; set; }
 
         public ItemsData()

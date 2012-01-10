@@ -2,34 +2,35 @@
 <ItemsData>
   <Items>
     <!-- Weapons -->
-    <Weapons>
       <Weapon>
+        <Id>0</Id>
+        <Name>Blank</Name>
+        <Type>Don't touch</Type>
+      </Weapon>
+      <Weapon>
+        <Type>Weapon</Type>
         <Id>1</Id>
         <Name>Great sword</Name>
-        <Type>Weapon</Type>
         <BaseDamage>16</BaseDamage>
         <critChange>10</critChange>
         <critMultiply>2</critMultiply>
         <Hands>2</Hands>
       </Weapon>
       <Weapon>
+        <Type>Weapon</Type>
         <Id>2</Id>
         <Name>Great sword2</Name>
-        <Type>Weapon</Type>
         <BaseDamage>16</BaseDamage>
         <critChange>10</critChange>
         <critMultiply>2</critMultiply>
         <Hands>2</Hands>
       </Weapon>
-    </Weapons>
     <!-- Keys -->
-    <Keys>
       <Key>
+        <For>4</For>
+        <Type>Key</Type>
         <Id>3</Id>
         <Name>Key for room 4</Name>
-        <Type>Key</Type>
-        <For>4</For>
       </Key>
-    </Keys>
   </Items>
 </ItemsData>

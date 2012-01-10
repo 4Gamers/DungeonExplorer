@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using DungeonExplorer.xml;
+using DungeonExplorer.game.items;
 
 namespace DungeonExplorer.game
 {
@@ -20,13 +21,6 @@ namespace DungeonExplorer.game
             System.Threading.Thread.Sleep(500); // Sleep
 
             Console.Clear();
-
-            //Console.WriteLine((Items.Random("Key") as DungeonExplorer.game.items.Key).For);
-            /*Console.WriteLine(Items.Random("Key").Name);
-            Console.WriteLine(Items.Random("Weapon").Name);
-            Console.WriteLine(Items.Random("Key").Name);
-            Console.WriteLine(Items.Random("Weapon").Name);*/
-            Console.WriteLine(Items.Random().Name);
 
             Console.Title = Config.GameName;
             Console.WriteLine();

@@ -14,7 +14,7 @@ namespace DungeonExplorer.game.items
 
         public override string Name
         {
-            get { return String.Format("Key {0:D2}", For); }
+            get { return String.Format("Key {0:D2} ", For); }
         }
 
 
