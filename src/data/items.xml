@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ItemsData>
   <Items>
+    <Item>
+      <Id>0</Id>
+      <Name>Blank</Name>
+      <Type>Don't touch</Type>
+    </Item>
     <!-- Weapons -->
-      <Weapon>
-        <Id>0</Id>
-        <Name>Blank</Name>
-        <Type>Don't touch</Type>
-      </Weapon>
-      <Weapon>
-        <Type>Weapon</Type>
-        <Id>1</Id>
-        <Name>Great sword</Name>
-        <BaseDamage>16</BaseDamage>
-        <critChange>10</critChange>
-        <critMultiply>2</critMultiply>
-        <Hands>2</Hands>
-      </Weapon>
-      <Weapon>
-        <Type>Weapon</Type>
-        <Id>2</Id>
-        <Name>Great sword2</Name>
-        <BaseDamage>16</BaseDamage>
-        <critChange>10</critChange>
-        <critMultiply>2</critMultiply>
-        <Hands>2</Hands>
-      </Weapon>
+    <Weapon>
+      <Id>1</Id>
+      <Type>Weapon</Type>
+
+      <Name>Great sword</Name>
+      <BaseDamage>16</BaseDamage>
+      <critChange>10</critChange>
+      <critMultiply>2</critMultiply>
+      <Hands>2</Hands>
+    </Weapon>
+    <Weapon>
+      <Id>2</Id>
+      <Type>Weapon</Type>
+
+      <Name>Great sword2</Name>
+      <BaseDamage>16</BaseDamage>
+      <critChange>10</critChange>
+      <critMultiply>2</critMultiply>
+      <Hands>2</Hands>
+    </Weapon>
     <!-- Keys -->
-      <Key>
-        <For>4</For>
-        <Type>Key</Type>
-        <Id>3</Id>
-        <Name>Key for room 4</Name>
-      </Key>
+    <Key>
+      <Id>3</Id>
+      <Type>Key</Type>
+
+      <Name>Key 0</Name>
+      <For>4</For>
+    </Key>
+    <!-- Chests -->
   </Items>
 </ItemsData>

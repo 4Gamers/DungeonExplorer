@@ -82,7 +82,6 @@ namespace DungeonExplorer.game
             this.Hp = playerHealth;
             this.Class = playerClass;
             this.Inv = new Inventory(this);
-            this.Inv.GiveRandom("Key");
             this.Equip = new Equipment(this);
 
             switch (this._playerRace)
@@ -99,7 +98,7 @@ namespace DungeonExplorer.game
                 if (Maps.MapExists(map) && Maps.getMap(map).From(this.Location))
                 {
                     this.Location = map;
-                    if (Maps.getMap(map).Chest)
+                    if (Maps.getMap(map).HasChest)
                         Console.WriteLine("You found a chest!");
                     if (Maps.getMap(map).Fight)
                         Console.WriteLine("Get ready for a fight!");

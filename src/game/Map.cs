@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
 using DungeonExplorer.xml;
+using DungeonExplorer.game.items;
 
 namespace DungeonExplorer.game
 {
@@ -22,14 +23,30 @@ namespace DungeonExplorer.game
         public string Msg { get; set; }
 
         [XmlElement(ElementName = "Chest")]
-        public bool Chest { get; set; }
+        public int Chest { get; set; }
+        [XmlIgnore]
+        public bool HasChest
+        {
+            get { return (this.Chest != 0); }
+        }
 
         [XmlElement(ElementName = "Blocked")]
         public string BlockedMaps { get; set; }
 
-        [XmlIgnoreAttribute]
+        [XmlIgnore]
         public int[] Blocked = new int[0];
 
+        /* Map data */
+
+        private Chest _Chest;
+
+
+
+        public void Initalize()
+        {
+            if (this.Chest != 0)
+                _Chest = new Chest(this.Chest);
+        }
 
         public bool From(int map)
         {

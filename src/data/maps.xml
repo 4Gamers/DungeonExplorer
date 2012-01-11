@@ -4,7 +4,7 @@
     <Id>0</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>Don't change this</Msg>
   </Map>
@@ -12,7 +12,7 @@
     <Id>1</Id>
     <Fight>false</Fight>
     <Name>Home</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>2</Blocked>
     <Msg>
       You find your self in a locked cellar in a dungeon.
@@ -24,7 +24,7 @@
     <Id>2</Id>
     <Fight>false</Fight>
     <Name>Home2</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>1</Blocked>
     <Msg>
       2You find your self in a locked cellar in a dungeon.
@@ -36,7 +36,7 @@
     <Id>3</Id>
     <Fight>false</Fight>
     <Name>Home3</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>13</Blocked>
     <Msg>
       3You find your self in a locked cellar in a dungeon.
@@ -45,10 +45,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>4</Id>  
+    <Id>4</Id>
     <Fight>false</Fight>
     <Name>Home4</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       4You find your self in a locked cellar in a dungeon.
@@ -57,10 +57,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>5</Id>  
+    <Id>5</Id>
     <Fight>false</Fight>
     <Name>Home5</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>15</Blocked>
     <Msg>
       5You find your self in a locked cellar in a dungeon.
@@ -72,7 +72,7 @@
     <Id>6</Id>
     <Fight>false</Fight>
     <Name>Home6</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       6You find your self in a locked cellar in a dungeon.
@@ -84,7 +84,7 @@
     <Id>7</Id>
     <Fight>false</Fight>
     <Name>Home7</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>8</Blocked>
     <Msg>
       7You find your self in a locked cellar in a dungeon.
@@ -96,7 +96,7 @@
     <Id>8</Id>
     <Fight>false</Fight>
     <Name>Home8</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>7</Blocked>
     <Msg>
       8You find your self in a locked cellar in a dungeon.
@@ -108,7 +108,7 @@
     <Id>9</Id>
     <Fight>false</Fight>
     <Name>Home9</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       9You find your self in a locked cellar in a dungeon.
@@ -120,7 +120,7 @@
     <Id>10</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this
@@ -130,7 +130,7 @@
     <Id>11</Id>
     <Fight>false</Fight>
     <Name>Home11</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       11You find your self in a locked cellar in a dungeon.
@@ -142,7 +142,7 @@
     <Id>12</Id>
     <Fight>false</Fight>
     <Name>Home12</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>22</Blocked>
     <Msg>
       22You find your self in a locked cellar in a dungeon.
@@ -154,7 +154,7 @@
     <Id>13</Id>
     <Fight>false</Fight>
     <Name>Home13</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>3,14</Blocked>
     <Msg>
       13You find your self in a locked cellar in a dungeon.
@@ -166,7 +166,7 @@
     <Id>14</Id>
     <Fight>false</Fight>
     <Name>Home14</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>13,15</Blocked>
     <Msg>
       14You find your self in a locked cellar in a dungeon.
@@ -178,7 +178,7 @@
     <Id>15</Id>
     <Fight>false</Fight>
     <Name>Home15</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>14,5,16</Blocked>
     <Msg>
       15You find your self in a locked cellar in a dungeon.
@@ -190,7 +190,7 @@
     <Id>16</Id>
     <Fight>false</Fight>
     <Name>Home16</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>15,17</Blocked>
     <Msg>
       16You find your self in a locked cellar in a dungeon.
@@ -202,7 +202,7 @@
     <Id>17</Id>
     <Fight>false</Fight>
     <Name>Home17</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>16,18</Blocked>
     <Msg>
       17You find your self in a locked cellar in a dungeon.
@@ -214,7 +214,7 @@
     <Id>18</Id>
     <Fight>false</Fight>
     <Name>Home18</Name>
-    <Chest>true</Chest>
+    <Chest>6</Chest>
     <Blocked>17,28,19</Blocked>
     <Msg>
       18You find your self in a locked cellar in a dungeon.
@@ -226,7 +226,7 @@
     <Id>19</Id>
     <Fight>false</Fight>
     <Name>Home19</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>18</Blocked>
     <Msg>
       19You find your self in a locked cellar in a dungeon.
@@ -238,17 +238,17 @@
     <Id>20</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this.
     </Msg>
   </Map>
   <Map>
-    <Id>21</Id> 
+    <Id>21</Id>
     <Fight>true</Fight>
     <Name>Home21</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>22</Blocked>
     <Msg>
       21You find your self in a locked cellar in a dungeon.
@@ -257,10 +257,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>22</Id> 
+    <Id>22</Id>
     <Fight>false</Fight>
     <Name>Home22</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>21,12,23</Blocked>
     <Msg>
       22You find your self in a locked cellar in a dungeon.
@@ -269,10 +269,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>23</Id> 
+    <Id>23</Id>
     <Fight>false</Fight>
     <Name>Home23</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>22,24</Blocked>
     <Msg>
       23You find your self in a locked cellar in a dungeon.
@@ -281,10 +281,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>24</Id> 
+    <Id>24</Id>
     <Fight>false</Fight>
     <Name>Home24</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>23,25</Blocked>
     <Msg>
       24You find your self in a locked cellar in a dungeon.
@@ -293,10 +293,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>25</Id> 
+    <Id>25</Id>
     <Fight>false</Fight>
     <Name>Home25</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>24,35</Blocked>
     <Msg>
       25You find your self in a locked cellar in a dungeon.
@@ -305,10 +305,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>26</Id> 
+    <Id>26</Id>
     <Fight>false</Fight>
     <Name>Home26</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>36,27</Blocked>
     <Msg>
       26You find your self in a locked cellar in a dungeon.
@@ -317,10 +317,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>27</Id> 
+    <Id>27</Id>
     <Fight>false</Fight>
     <Name>Home27</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>26,37</Blocked>
     <Msg>
       27You find your self in a locked cellar in a dungeon.
@@ -332,7 +332,7 @@
     <Id>28</Id>
     <Fight>false</Fight>
     <Name>Home28</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>18,38</Blocked>
     <Msg>
       28You find your self in a locked cellar in a dungeon.
@@ -344,7 +344,7 @@
     <Id>29</Id>
     <Fight>false</Fight>
     <Name>Home29</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       29You find your self in a locked cellar in a dungeon.
@@ -356,7 +356,7 @@
     <Id>30</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this.
@@ -366,7 +366,7 @@
     <Id>31</Id>
     <Fight>false</Fight>
     <Name>Home31</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>41</Blocked>
     <Msg>
       31You find your self in a locked cellar in a dungeon.
@@ -375,10 +375,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>32</Id> 
+    <Id>32</Id>
     <Fight>false</Fight>
     <Name>Home32</Name>
-    <Chest>true</Chest>
+    <Chest>6</Chest>
     <Blocked>42,33</Blocked>
     <Msg>
       32You find your self in a locked cellar in a dungeon.
@@ -390,7 +390,7 @@
     <Id>33</Id>
     <Fight>false</Fight>
     <Name>Home33</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>32,34</Blocked>
     <Msg>
       33You find your self in a locked cellar in a dungeon.
@@ -402,7 +402,7 @@
     <Id>34</Id>
     <Fight>false</Fight>
     <Name>Home34</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>33,44</Blocked>
     <Msg>
       34You find your self in a locked cellar in a dungeon.
@@ -414,7 +414,7 @@
     <Id>35</Id>
     <Fight>false</Fight>
     <Name>Home35</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>25,45</Blocked>
     <Msg>
       35You find your self in a locked cellar in a dungeon.
@@ -423,10 +423,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>36</Id> 
+    <Id>36</Id>
     <Fight>false</Fight>
     <Name>Home36</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>26,37</Blocked>
     <Msg>
       36You find your self in a locked cellar in a dungeon.
@@ -438,7 +438,7 @@
     <Id>37</Id>
     <Fight>false</Fight>
     <Name>Home37</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>36,27</Blocked>
     <Msg>
       37You find your self in a locked cellar in a dungeon.
@@ -450,7 +450,7 @@
     <Id>38</Id>
     <Fight>false</Fight>
     <Name>Home38</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>28,39</Blocked>
     <Msg>
       38You find your self in a locked cellar in a dungeon.
@@ -459,10 +459,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>39</Id> 
+    <Id>39</Id>
     <Fight>false</Fight>
     <Name>Home39</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>38</Blocked>
     <Msg>
       39You find your self in a locked cellar in a dungeon.
@@ -474,7 +474,7 @@
     <Id>40</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this.
@@ -484,7 +484,7 @@
     <Id>41</Id>
     <Fight>false</Fight>
     <Name>Home41</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>31</Blocked>
     <Msg>
       41You find your self in a locked cellar in a dungeon.
@@ -493,10 +493,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>42</Id> 
+    <Id>42</Id>
     <Fight>false</Fight>
     <Name>Home42</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>32</Blocked>
     <Msg>
       42You find your self in a locked cellar in a dungeon.
@@ -508,7 +508,7 @@
     <Id>43</Id>
     <Fight>false</Fight>
     <Name>Home43</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>53</Blocked>
     <Msg>
       43You find your self in a locked cellar in a dungeon.
@@ -519,7 +519,7 @@
       <Id>44</Id>
       <Fight>false</Fight>
       <Name>Home44</Name>
-      <Chest>false</Chest>
+      <Chest>0</Chest>
       <Blocked>34,54,45</Blocked>
       <Msg>
         44You find your self in a locked cellar in a dungeon.
@@ -529,10 +529,10 @@
     </Map>
   </Map>
   <Map>
-    <Id>45</Id> 
+    <Id>45</Id>
     <Fight>false</Fight>
     <Name>Home45</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>35,44</Blocked>
     <Msg>
       45You find your self in a locked cellar in a dungeon.
@@ -544,7 +544,7 @@
     <Id>46</Id>
     <Fight>false</Fight>
     <Name>Home46</Name>
-    <Chest>true</Chest>
+    <Chest>6</Chest>
     <Blocked>47</Blocked>
     <Msg>
       46You find your self in a locked cellar in a dungeon.
@@ -556,7 +556,7 @@
     <Id>47</Id>
     <Fight>false</Fight>
     <Name>Home47</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>46,48</Blocked>
     <Msg>
       47You find your self in a locked cellar in a dungeon.
@@ -568,7 +568,7 @@
     <Id>48</Id>
     <Fight>false</Fight>
     <Name>Home48</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>47,49</Blocked>
     <Msg>
       48You find your self in a locked cellar in a dungeon.
@@ -577,10 +577,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>49</Id> 
+    <Id>49</Id>
     <Fight>false</Fight>
     <Name>Home49</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>48</Blocked>
     <Msg>
       49You find your self in a locked cellar in a dungeon.
@@ -589,10 +589,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>50</Id> 
+    <Id>50</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this.
@@ -602,7 +602,7 @@
     <Id>51</Id>
     <Fight>false</Fight>
     <Name>Home51</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>52</Blocked>
     <Msg>
       51You find your self in a locked cellar in a dungeon.
@@ -614,7 +614,7 @@
     <Id>52</Id>
     <Fight>false</Fight>
     <Name>Home52</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>51,53,62</Blocked>
     <Msg>
       52You find your self in a locked cellar in a dungeon.
@@ -626,7 +626,7 @@
     <Id>53</Id>
     <Fight>false</Fight>
     <Name>Home53</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>52,43</Blocked>
     <Msg>
       53You find your self in a locked cellar in a dungeon.
@@ -638,7 +638,7 @@
     <Id>54</Id>
     <Fight>false</Fight>
     <Name>Home54</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>44,64</Blocked>
     <Msg>
       54You find your self in a locked cellar in a dungeon.
@@ -650,7 +650,7 @@
     <Id>55</Id>
     <Fight>false</Fight>
     <Name>Home55</Name>
-    <Chest>true</Chest>
+    <Chest>6</Chest>
     <Blocked>65</Blocked>
     <Msg>
       55You find your self in a locked cellar in a dungeon.
@@ -662,7 +662,7 @@
     <Id>56</Id>
     <Fight>false</Fight>
     <Name>Home56</Name>
-    <Chest>true</Chest>
+    <Chest>6</Chest>
     <Blocked>66</Blocked>
     <Msg>
       56You find your self in a locked cellar in a dungeon.
@@ -671,10 +671,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>57</Id> 
+    <Id>57</Id>
     <Fight>false</Fight>
     <Name>Home57</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>67,58</Blocked>
     <Msg>
       57You find your self in a locked cellar in a dungeon.
@@ -683,10 +683,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>58</Id> 
+    <Id>58</Id>
     <Fight>false</Fight>
     <Name>Home58</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>57</Blocked>
     <Msg>
       58You find your self in a locked cellar in a dungeon.
@@ -698,7 +698,7 @@
     <Id>59</Id>
     <Fight>false</Fight>
     <Name>Home59</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       59You find your self in a locked cellar in a dungeon.
@@ -707,20 +707,20 @@
     </Msg>
   </Map>
   <Map>
-    <Id>60</Id> 
+    <Id>60</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this.
     </Msg>
   </Map>
   <Map>
-    <Id>61</Id> 
+    <Id>61</Id>
     <Fight>false</Fight>
     <Name>Home61</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>71</Blocked>
     <Msg>
       61You find your self in a locked cellar in a dungeon.
@@ -732,7 +732,7 @@
     <Id>62</Id>
     <Fight>false</Fight>
     <Name>Home62</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>52,63</Blocked>
     <Msg>
       62You find your self in a locked cellar in a dungeon.
@@ -741,10 +741,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>63</Id> 
+    <Id>63</Id>
     <Fight>false</Fight>
     <Name>Home63</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>62,64</Blocked>
     <Msg>
       63You find your self in a locked cellar in a dungeon.
@@ -753,10 +753,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>64</Id> 
+    <Id>64</Id>
     <Fight>false</Fight>
     <Name>Home64</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>63,54,74</Blocked>
     <Msg>
       64You find your self in a locked cellar in a dungeon.
@@ -765,10 +765,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>65</Id> 
+    <Id>65</Id>
     <Fight>false</Fight>
     <Name>Home65</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>55</Blocked>
     <Msg>
       65You find your self in a locked cellar in a dungeon.
@@ -777,10 +777,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>66</Id> 
+    <Id>66</Id>
     <Fight>false</Fight>
     <Name>Home66</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>56,76</Blocked>
     <Msg>
       66You find your self in a locked cellar in a dungeon.
@@ -789,10 +789,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>67</Id> 
+    <Id>67</Id>
     <Fight>false</Fight>
     <Name>Home67</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>57,77</Blocked>
     <Msg>
       67You find your self in a locked cellar in a dungeon.
@@ -804,7 +804,7 @@
     <Id>68</Id>
     <Fight>false</Fight>
     <Name>Home68</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>69</Blocked>
     <Msg>
       68You find your self in a locked cellar in a dungeon.
@@ -813,10 +813,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>69</Id> 
+    <Id>69</Id>
     <Fight>false</Fight>
     <Name>Home69</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>68</Blocked>
     <Msg>
       69You find your self in a locked cellar in a dungeon.
@@ -828,17 +828,17 @@
     <Id>70</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this.
     </Msg>
   </Map>
   <Map>
-    <Id>71</Id> 
+    <Id>71</Id>
     <Fight>false</Fight>
     <Name>Home71</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>61,72</Blocked>
     <Msg>
       71You find your self in a locked cellar in a dungeon.
@@ -847,10 +847,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>72</Id> 
+    <Id>72</Id>
     <Fight>false</Fight>
     <Name>Home72</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>71</Blocked>
     <Msg>
       72You find your self in a locked cellar in a dungeon.
@@ -859,10 +859,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>73</Id> 
+    <Id>73</Id>
     <Fight>false</Fight>
     <Name>Home73</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       73You find your self in a locked cellar in a dungeon.
@@ -871,10 +871,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>74</Id> 
+    <Id>74</Id>
     <Fight>false</Fight>
     <Name>Home74</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>64,75,84</Blocked>
     <Msg>
       74You find your self in a locked cellar in a dungeon.
@@ -883,10 +883,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>75</Id> 
+    <Id>75</Id>
     <Fight>false</Fight>
     <Name>Home75</Name>
-    <Chest>true</Chest>
+    <Chest>6</Chest>
     <Blocked>74,85,76</Blocked>
     <Msg>
       75You find your self in a locked cellar in a dungeon.
@@ -895,10 +895,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>76</Id> 
+    <Id>76</Id>
     <Fight>false</Fight>
     <Name>Home76</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>75,66</Blocked>
     <Msg>
       76You find your self in a locked cellar in a dungeon.
@@ -907,10 +907,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>77</Id> 
+    <Id>77</Id>
     <Fight>false</Fight>
     <Name>Home77</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>67,87</Blocked>
     <Msg>
       77You find your self in a locked cellar in a dungeon.
@@ -919,10 +919,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>78</Id> 
+    <Id>78</Id>
     <Fight>false</Fight>
     <Name>Home78</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>88,79</Blocked>
     <Msg>
       78You find your self in a locked cellar in a dungeon.
@@ -931,10 +931,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>79</Id> 
+    <Id>79</Id>
     <Fight>false</Fight>
     <Name>Home79</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>78,89</Blocked>
     <Msg>
       79You find your self in a locked cellar in a dungeon.
@@ -943,20 +943,20 @@
     </Msg>
   </Map>
   <Map>
-    <Id>80</Id> 
+    <Id>80</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this.
     </Msg>
   </Map>
   <Map>
-    <Id>81</Id> 
+    <Id>81</Id>
     <Fight>false</Fight>
     <Name>Home81</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       81You find your self in a locked cellar in a dungeon.
@@ -965,10 +965,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>82</Id> 
+    <Id>82</Id>
     <Fight>false</Fight>
     <Name>Home82</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>83</Blocked>
     <Msg>
       82You find your self in a locked cellar in a dungeon.
@@ -977,10 +977,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>83</Id> 
+    <Id>83</Id>
     <Fight>false</Fight>
     <Name>Home83</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>82</Blocked>
     <Msg>
       83You find your self in a locked cellar in a dungeon.
@@ -989,10 +989,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>84</Id> 
+    <Id>84</Id>
     <Fight>false</Fight>
     <Name>Home84</Name>
-    <Chest>true</Chest>
+    <Chest>6</Chest>
     <Blocked>74,85</Blocked>
     <Msg>
       84You find your self in a locked cellar in a dungeon.
@@ -1001,10 +1001,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>85</Id> 
+    <Id>85</Id>
     <Fight>false</Fight>
     <Name>Home85</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>84,75</Blocked>
     <Msg>
       85You find your self in a locked cellar in a dungeon.
@@ -1013,10 +1013,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>86</Id> 
+    <Id>86</Id>
     <Fight>false</Fight>
     <Name>Home86</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       86You find your self in a locked cellar in a dungeon.
@@ -1025,10 +1025,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>87</Id> 
+    <Id>87</Id>
     <Fight>false</Fight>
     <Name>Home87</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>77</Blocked>
     <Msg>
       87You find your self in a locked cellar in a dungeon.
@@ -1037,10 +1037,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>88</Id> 
+    <Id>88</Id>
     <Fight>false</Fight>
     <Name>Home88</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>78</Blocked>
     <Msg>
       88You find your self in a locked cellar in a dungeon.
@@ -1049,10 +1049,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>89</Id> 
+    <Id>89</Id>
     <Fight>false</Fight>
     <Name>Home89</Name>
-    <Chest>true</Chest>
+    <Chest>6</Chest>
     <Blocked>79</Blocked>
     <Msg>
       89You find your self in a locked cellar in a dungeon.
@@ -1061,10 +1061,10 @@
     </Msg>
   </Map>
   <Map>
-    <Id>90</Id> 
+    <Id>90</Id>
     <Fight>false</Fight>
     <Name>Blank</Name>
-    <Chest>false</Chest>
+    <Chest>0</Chest>
     <Blocked>0</Blocked>
     <Msg>
       Don't change this.

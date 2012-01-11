@@ -13,14 +13,10 @@ namespace DungeonExplorer.game
         static Commands()
         { 
             // get all public static methods of MyClass type
-            MethodInfo[] methodInfos = typeof(Commands).GetMethods(BindingFlags.Public |
+            MethodInfo[] methodInfos = typeof(Commands).GetMethods(BindingFlags.NonPublic |
                                                                   BindingFlags.Static).Where(x => x.Name != "Handle" && x.Name != "Commands").ToArray();
-            // sort methods by name
-            /*Array.Sort(methodInfos,
-                    delegate(MethodInfo methodInfo1, MethodInfo methodInfo2)
-                    { return methodInfo1.Name.CompareTo(methodInfo2.Name); });*/
 
-            // write method names
+            // Custom help
             foreach (MethodInfo methodInfo in methodInfos)
             {
                 string command = methodInfo.Name.ToLower();
@@ -38,23 +34,26 @@ namespace DungeonExplorer.game
 
         }
 
-        public static bool Handle(Player p, string[] command)
+        public static Config.Handle Handle(Player p, string[] command)
         {
             switch (command[0]) // Command Handler
             {
                 case "move":
                     if (Commands.Move(p, command) == 0)
+                    {
                         Console.WriteLine("This way is blocked, try going another way.");
+                        return Config.Handle.Supress;
+                    }
                     break;
                 case "use":
                 case "switch":
                 case "pull":
 
-                                // need to add levers and other stuff to pull in the map xml
+                    // need to add levers and other stuff to pull in the map xml
 
                     break;
                 case "clear":
-                    Console.Clear();
+                    Clear();
                     break;
                 case "take":
                 case "grab":
@@ -71,17 +70,17 @@ namespace DungeonExplorer.game
                 case "exit":
                     Console.WriteLine("Are you sure you want to exit? (Y/N)");
                     if (char.ToUpper(Console.ReadLine()[0]) == 'Y')
-                        return false; // Lets exit
+                        return Config.Handle.Exit; // Lets exit
                     break;
                 default:
                     // HELP
                     Commands.Help();
                     break;
             }
-            return true; // LOOP
+            return Config.Handle.Start; // LOOP
         }
 
-        public static void Help()
+        private static void Help()
         {
             Console.WriteLine();
             foreach (string cmd in Commands._commands)
@@ -89,12 +88,17 @@ namespace DungeonExplorer.game
             Console.WriteLine();
         }
 
-        public static void ShowInventory(Player p)
+        private static void Clear()
+        {
+            Console.Clear();
+        }
+
+        private static void ShowInventory(Player p)
         {
             p.Inv.Print();
         }
 
-        public static int Move(Player p, string[] cmd)
+        private static int Move(Player p, string[] cmd)
         {
             char where;
 

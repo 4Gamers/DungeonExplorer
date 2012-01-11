@@ -20,7 +20,8 @@ namespace DungeonExplorer.game.items
 
         public Key()
         {
-            this.Type = "Key";
+            if (this.Type == "Item")
+                this.Type = "Key";
         }
 
         public override void Randomize()

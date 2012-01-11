@@ -2,12 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml.Serialization;
 using DungeonExplorer.xml;
 
 namespace DungeonExplorer.game.items
 {
     public class Chest : Item
     {
+        [XmlElement(ElementName = "Size")]
+        public int Length
+        {
+            get { return _items.Length; }
+            set { _items = new Item[value]; this.Randomize(); }
+        }
+
         private Item[] _items;
 
         public Chest()
@@ -17,7 +25,10 @@ namespace DungeonExplorer.game.items
 
         public Chest(int len)
         {
-            _items = new Item[len];
+            if (this.Type == "Item")
+                this.Type = "Chest";
+
+            this.Length = len;
         }
 
         public override void Randomize()

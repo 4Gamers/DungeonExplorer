@@ -13,6 +13,8 @@ namespace DungeonExplorer.game
 
         public static Random rnd = new Random();
 
+        public enum Handle { Start = 1, Exit, Error, Supress };
+
         public enum Race { Dwarf = 1, Elf, Human, Orc, Halfling };
 
         public enum Class { Fighter = 1, Wizard, Cleric, Rogue, Ranger };

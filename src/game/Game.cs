@@ -14,8 +14,8 @@ namespace DungeonExplorer.game
         public Game()
         {
             /* LOADING */
-            Maps.Init(); // Load map data
             Items.Init(); // Load items data
+            Maps.Init(); // Load map data
 
 
             System.Threading.Thread.Sleep(500); // Sleep
@@ -37,21 +37,26 @@ namespace DungeonExplorer.game
             Console.Beep();
             Console.Beep();
 
-            this.Start(); // Loop till exit
+            this.Start(Config.Handle.Start); // Loop till exit
         }
 
-        public bool Start()
+        public bool Start(Config.Handle status)
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("Map: ");
-            sb.Append(Maps.getMap(_p.Location).Name);
-            sb.Append("\r\n\r\n");
-            sb.Append(Location(Maps.getMap(_p.Location)));
+            if (status != Config.Handle.Supress)
+            {
+                sb.Append("Map: ");
+                sb.Append(Maps.getMap(_p.Location).Name);
+                sb.Append("\r\n");
+                sb.Append("\r\n");
+                sb.Append(Location(Maps.getMap(_p.Location)));
+            }
             Console.WriteLine(sb);
 
             string[] command = Console.ReadLine().ToLower().Split(' ');
 
-            return (Commands.Handle(_p, command) == false) ? false : Start();
+            Config.Handle work = Commands.Handle(_p, command);
+            return (work == Config.Handle.Exit) ? false : Start(work);
         }
 
         private string Location(Map location)
