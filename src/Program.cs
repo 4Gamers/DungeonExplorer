@@ -12,6 +12,8 @@ namespace DungeonExplorer
 
         private static void Main(string[] args)
         {
+            Console.SetWindowSize(100, 50);
+
             game = new Game(); // PLAY!
         }
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Reflection;
+using DungeonExplorer.game.items;
 
 namespace DungeonExplorer.game
 {
@@ -13,7 +14,7 @@ namespace DungeonExplorer.game
         static Commands()
         { 
             // get all public static methods of MyClass type
-            MethodInfo[] methodInfos = typeof(Commands).GetMethods(BindingFlags.NonPublic |
+            MethodInfo[] methodInfos = typeof(Commands).GetMethods(BindingFlags.Public |
                                                                   BindingFlags.Static).Where(x => x.Name != "Handle" && x.Name != "Commands").ToArray();
 
             // Custom help
@@ -25,6 +26,9 @@ namespace DungeonExplorer.game
                 {
                     case "move":
                         command += " (n/s/w/e)";
+                        break;
+                    case "take":
+                        command += " (slot)";
                         break;
                 }
 
@@ -42,7 +46,7 @@ namespace DungeonExplorer.game
                     if (Commands.Move(p, command) == 0)
                     {
                         Console.WriteLine("This way is blocked, try going another way.");
-                        return Config.Handle.Supress;
+                        return Config.Handle.Suppress;
                     }
                     break;
                 case "use":
@@ -53,12 +57,21 @@ namespace DungeonExplorer.game
 
                     break;
                 case "clear":
-                    Clear();
+                    Commands.Clear();
                     break;
                 case "take":
                 case "grab":
+                    int slot;
+                    if (int.TryParse(command[1], out slot))
+                        if (!Commands.Take(p, slot))
+                            if (p.Map.HasChest)
+                                Console.WriteLine("Your inventory is full");
+                            else
+                                Console.WriteLine("No chests in this room");
                     break;
                 case "open":
+                    if (Commands.Open(p))
+                        return Config.Handle.Suppress;
                     break;
                 case "inv":
                 case "inventory":
@@ -80,7 +93,7 @@ namespace DungeonExplorer.game
             return Config.Handle.Start; // LOOP
         }
 
-        private static void Help()
+        public static void Help()
         {
             Console.WriteLine();
             foreach (string cmd in Commands._commands)
@@ -88,17 +101,40 @@ namespace DungeonExplorer.game
             Console.WriteLine();
         }
 
-        private static void Clear()
+        public static void Clear()
         {
             Console.Clear();
         }
 
-        private static void ShowInventory(Player p)
+        public static void ShowInventory(Player p)
         {
             p.Inv.Print();
         }
 
-        private static int Move(Player p, string[] cmd)
+        public static bool Open(Player p)
+        {
+            Map map = p.Map;
+            if (map.HasChest)
+                Console.WriteLine(map.Chest.ToString());
+            return (map.HasChest);
+        }
+
+        public static bool Take(Player p, int slot)
+        {
+            if (!p.Map.HasChest || p.Inv.Full)
+                return false;
+            Chest chest = p.Map.Chest;
+            Item i = chest.ItemAt(slot);
+            if (i != null)
+            {
+                p.Inv.Give(i);
+                chest.Remove(slot);
+                return true;
+            }
+            return false;
+        }
+
+        public static int Move(Player p, string[] cmd)
         {
             char where;
 

@@ -42,5 +42,10 @@ namespace DungeonExplorer.game
         public virtual void Randomize()
         {
         }
+
+        public override string ToString()
+        {
+            return this.Name;
+        }
     }
 }

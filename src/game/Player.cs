@@ -35,6 +35,12 @@ namespace DungeonExplorer.game
             set { LocationY = value / 10; LocationX = value % 10; }
         }
 
+        public Map Map
+        {
+            get { return Maps.getMap(this.Location); }
+            set { this.Location = ((Map)value).Id; }
+        }
+
         public string Race
         {
             get { return Enum.GetName(typeof(Config.Race), _playerRace); }
@@ -94,7 +100,7 @@ namespace DungeonExplorer.game
 
         public bool ChangeMap(int map)
         {
-            if (map >= 1 && map <= 89 && map / 10 != 0) // Limits
+            if (map >= 1 && map <= 89 && map % 10 != 0) // Limits
                 if (Maps.MapExists(map) && Maps.getMap(map).From(this.Location))
                 {
                     this.Location = map;
@@ -130,7 +136,7 @@ namespace DungeonExplorer.game
         {
             Console.Write("\nPlease type your name: ");
             string name = Console.ReadLine();
-            while (name == null)
+            while (name == null || name.Length == 0)
                 name = Console.ReadLine();
             return name;
         }
@@ -139,6 +145,8 @@ namespace DungeonExplorer.game
         {
             Console.WriteLine(Config.Classes + "?");
             string _class = Console.ReadLine();
+            while (_class == null || _class.Length == 0)
+                _class = Console.ReadLine();
             _class = char.ToUpper(_class[0]) + _class.Substring(1).ToLower();
 
             if (!Enum.IsDefined(typeof(Config.Class), _class))
@@ -180,6 +188,8 @@ namespace DungeonExplorer.game
             Console.WriteLine(Config.Races + "?");
 
             string race = Console.ReadLine();
+            while (race == null || race.Length == 0)
+                race = Console.ReadLine();
             race = char.ToUpper(race[0]) + race.Substring(1).ToLower();
 
             if (!Enum.IsDefined(typeof(Config.Race), race))

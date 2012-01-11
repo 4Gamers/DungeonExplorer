@@ -65,6 +65,7 @@
     <Compile Include="game\Map.cs" />
     <Compile Include="game\MapData.cs" />
     <Compile Include="game\Player.cs" />
+    <Compile Include="game\Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">

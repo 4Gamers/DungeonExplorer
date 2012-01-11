@@ -17,7 +17,6 @@ namespace DungeonExplorer.game
             Items.Init(); // Load items data
             Maps.Init(); // Load map data
 
-
             System.Threading.Thread.Sleep(500); // Sleep
 
             Console.Clear();
@@ -43,7 +42,7 @@ namespace DungeonExplorer.game
         public bool Start(Config.Handle status)
         {
             StringBuilder sb = new StringBuilder();
-            if (status != Config.Handle.Supress)
+            if (status != Config.Handle.Suppress)
             {
                 sb.Append("Map: ");
                 sb.Append(Maps.getMap(_p.Location).Name);

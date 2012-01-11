@@ -23,11 +23,15 @@ namespace DungeonExplorer.game
         public string Msg { get; set; }
 
         [XmlElement(ElementName = "Chest")]
-        public int Chest { get; set; }
+        public int ChestSize { get; set; }
+
+        [XmlIgnore]
+        public Chest Chest;
+
         [XmlIgnore]
         public bool HasChest
         {
-            get { return (this.Chest != 0); }
+            get { return (this.ChestSize != 0); }
         }
 
         [XmlElement(ElementName = "Blocked")]
@@ -36,16 +40,12 @@ namespace DungeonExplorer.game
         [XmlIgnore]
         public int[] Blocked = new int[0];
 
-        /* Map data */
-
-        private Chest _Chest;
-
 
 
         public void Initalize()
         {
-            if (this.Chest != 0)
-                _Chest = new Chest(this.Chest);
+            if (this.ChestSize != 0)
+                Chest = new Chest(this.ChestSize);
         }
 
         public bool From(int map)

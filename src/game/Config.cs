@@ -9,11 +9,11 @@ namespace DungeonExplorer.game
     public static class Config
     {
         public static string GameName = "Dungeon Explorer";
-        public static string Version = "0.0.0";
+        public static string Version = "0.0.0.0?";
 
         public static Random rnd = new Random();
 
-        public enum Handle { Start = 1, Exit, Error, Supress };
+        public enum Handle { Start = 1, Exit, Error, Suppress };
 
         public enum Race { Dwarf = 1, Elf, Human, Orc, Halfling };
 
@@ -52,5 +52,6 @@ namespace DungeonExplorer.game
                 return races;
             }
         }
+
     }
 }

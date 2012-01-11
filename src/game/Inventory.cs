@@ -12,7 +12,12 @@ namespace DungeonExplorer.game
     {
         private Player _player;
         private List<Item> _items = new List<Item>();
-        private const int LIMIT = 10;
+        private int Size = 10;
+
+        public bool Full
+        {
+            get { return (this.Size == _items.Count); }
+        }
 
         public Inventory(Player p)
         {
@@ -24,7 +29,7 @@ namespace DungeonExplorer.game
          * */
         public void GiveRandom(string type)
         {
-            if (!Enum.IsDefined(typeof(Config.ItemType), type))
+            if (this.Full || !Enum.IsDefined(typeof(Config.ItemType), type))
                 return; // Not exists
 
             Item i = Items.Random(type);
@@ -34,45 +39,51 @@ namespace DungeonExplorer.game
 
         public void Give(Item item)
         {
-            _items.Add(item);
+            if (!this.Full)
+                _items.Add(item);
         }
 
         public void Take(Item item)
         {
-            _items.Remove(item);
+            if (!this.Full)
+                _items.Remove(item);
         }
 
-        public void Print()
+        public override string ToString()
         {
-            for (int j = 0; j < LIMIT/5; j++) // TABLE
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Items:\r\n");
+            for (int j = 0; j < Size / 5 + ((Size % 5 != 0) ? 1 : 0); j++) // TABLE
             {
                 // j * 5 = START INDEX
                 // (j+1)*5 = FINISH INDEX
                 // LIMIT = LIMIT
 
-                Console.Write("Slot:");
-                Console.Write("\t");
-                for (int i = j * 5; i < (j + 1) * 5 && i < LIMIT; i++) // Header
+                for (int i = j * 5; i < (j + 1) * 5 && i < Size; i++) // Header
                 {
-                    Console.Write(i + 1);
-                    Console.Write("\t");
+                    sb.Append("|");
+                    sb.Append(Helper.AlignCenter((i + 1).ToString(), 17));
                 }
-                Console.WriteLine();
+                sb.Append("|");
+                sb.Append("\r\n");
 
-                Console.Write("\t");
-                for (int i = j * 5; i < (j + 1) * 5 && i < LIMIT; i++) // Rows
+                for (int i = j * 5; i < (j + 1) * 5 && i < Size; i++) // Rows
                 {
-                    if (_items.Count > i)
-                    {
-                        Item item = _items[i];
-                        Console.Write(item.Name);
-                    }
+                    sb.Append("|");
+                    if (i < _items.Count)
+                        sb.Append(Helper.AlignCenter(_items.ElementAt(i).Name, 17));
                     else
-                        Console.Write("empty");
-                    Console.Write("\t");
+                        sb.Append(Helper.AlignCenter("empty", 17));
                 }
-                Console.WriteLine("\r\n"); // NEW LINE
+                sb.Append("|");
+                sb.Append("\r\n\r\n"); // NEW LINE
             }
+            return sb.ToString();
+        }
+
+        public void Print()
+        {
+            Console.WriteLine(this.ToString());
         }
     }
 }
