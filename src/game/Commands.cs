@@ -73,6 +73,9 @@ namespace DungeonExplorer.game
                     if (Commands.Open(p))
                         return Config.Handle.Suppress;
                     break;
+                case "stats":
+                    Commands.Stats(p);
+                    break;
                 case "inv":
                 case "inventory":
                 case "showinventory":
@@ -109,6 +112,11 @@ namespace DungeonExplorer.game
         public static void ShowInventory(Player p)
         {
             p.Inv.Print();
+        }
+
+        public static void Stats(Player p)
+        {
+            p.Stats.Print();
         }
 
         public static bool Open(Player p)

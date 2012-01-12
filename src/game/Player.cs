@@ -15,8 +15,8 @@ namespace DungeonExplorer.game
         private Config.Class _playerClass;
         private Config.Race _playerRace;
         private int _playerHealth;
-        private int LocationX = 2; // 1-9
-        private int LocationY = 2; // 0-8
+        private int LocationX; // 1-9
+        private int LocationY; // 0-8
         #endregion
 
         #region Public
@@ -92,7 +92,8 @@ namespace DungeonExplorer.game
             this.Stats = new Stats();
             this.Inv = new Inventory(this);
             this.Equip = new Equipment(this);
-            
+            this.Location = 22; // Home
+
             switch (this._playerRace)
             {
                 case Config.Race.Elf:
