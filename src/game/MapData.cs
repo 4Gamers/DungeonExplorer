@@ -10,7 +10,7 @@ namespace DungeonExplorer.game
     public class MapsData
     {
         [XmlElement("Map")]
-        public List<Map> Maps { get; set; }
+        public List<Map> Maps;
 
         public MapsData()
         {

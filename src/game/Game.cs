@@ -48,7 +48,7 @@ namespace DungeonExplorer.game
                 sb.Append(Maps.getMap(_p.Location).Name);
                 sb.Append("\r\n");
                 sb.Append("\r\n");
-                sb.Append(Location(Maps.getMap(_p.Location)));
+                sb.Append(this.Location(Maps.getMap(_p.Location)));
             }
             Console.WriteLine(sb);
 

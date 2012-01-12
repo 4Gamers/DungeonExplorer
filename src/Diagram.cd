@@ -18,6 +18,11 @@
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
+      <Enum Name="DungeonExplorer.game.Config.Handle" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>game\Config.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
       <Enum Name="DungeonExplorer.game.Config.Race" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
@@ -29,11 +34,6 @@
         </TypeIdentifier>
       </Enum>
       <Enum Name="DungeonExplorer.game.Config.ItemType" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>game\Config.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-      <Enum Name="DungeonExplorer.game.Config.Handle" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -51,7 +51,7 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>QAAAAIEAAAAEABAAAAIgEAQAAgAIAQAgAAAAAAAAQCA=</HashCode>
+      <HashCode>QBAAAIEAABAEABAAAAIgEAQAAgAIAQAgAAAAAAAAQCA=</HashCode>
       <FileName>game\Player.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -72,7 +72,7 @@
   <Class Name="DungeonExplorer.game.Commands">
     <Position X="1" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEAAIAIAAAAAAAAAAAAAAAAAAIAAAAAABBAAAA=</HashCode>
+      <HashCode>ABAAAAEAAIAIIAAAAAAAAAAAAAAAAAIAAAEAABBAAAA=</HashCode>
       <FileName>game\Commands.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -87,7 +87,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAABQAAQAACAEAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAEAAAACAAAABQAAAAACgEAAAAEAAA=</HashCode>
       <FileName>game\Inventory.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -103,7 +103,7 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAASAAAAAAAAAAQAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAASAAAAAAAAAAQAAAAAAAgA=</HashCode>
       <FileName>game\items\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -117,7 +117,7 @@
   <Class Name="DungeonExplorer.game.Map" Collapsed="true">
     <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgACAAAAIAAIQAAAAABAAAQAAAEABAAAEAAAgAAAAAA=</HashCode>
+      <HashCode>AgACAAAAIAAIQAAAAABgAAQAAAAABAAAEAAAgAAAAAA=</HashCode>
       <FileName>game\Map.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -129,7 +129,7 @@
       <NewMemberFileName>game\MapData.cs</NewMemberFileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
-      <Property Name="Items" />
+      <Field Name="Items" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="DungeonExplorer.xml.Maps" Collapsed="true">
@@ -172,7 +172,7 @@
       <FileName>game\MapData.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
-      <Property Name="Maps" />
+      <Field Name="Maps" />
     </ShowAsCollectionAssociation>
   </Class>
   <Font Name="Tahoma" Size="9" />

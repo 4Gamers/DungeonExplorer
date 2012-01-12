@@ -25,9 +25,7 @@ namespace DungeonExplorer.game.items
 
         public Chest(int len)
         {
-            if (this.Type == "Item")
-                this.Type = "Chest";
-
+            this.Type = "Chest";
             this.Size = len;
         }
 

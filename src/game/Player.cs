@@ -7,7 +7,6 @@ using DungeonExplorer.xml;
 
 namespace DungeonExplorer.game
 {
-    [Serializable()]
     class Player
     {
         #region Private
@@ -168,19 +167,19 @@ namespace DungeonExplorer.game
             switch (c)
             {
                 case Config.Class.Cleric:
-                    Console.WriteLine("Clerics are versatile figures, both capable in combat and skilled in the use of divine magic. Clerics are powerful healers due to the large number of healing and curative magics available to them. With divinely-granted abilities over life or death, they are also able to repel or control undead creatures.");
+                    Console.WriteLine(@"Clerics are versatile figures, both capable in combat and skilled in the use of divine magic. Clerics are powerful healers due to the large number of healing and curative magics available to them. With divinely-granted abilities over life or death, they are also able to repel or control undead creatures.");
                     break;
                 case Config.Class.Fighter:
-                    Console.WriteLine("A fighter is a versatile, weapons-oriented warrior who fights using skill, strategy and tactics.");
+                    Console.WriteLine(@"A fighter is a versatile, weapons-oriented warrior who fights using skill, strategy and tactics.");
                     break;
                 case Config.Class.Ranger:
-                    Console.WriteLine("They are protectors of nature, skilled woodsmen, archers and melee combat, and often live reclusive lives as hermits.");
+                    Console.WriteLine(@"They are protectors of nature, skilled woodsmen, archers and melee combat, and often live reclusive lives as hermits.");
                     break;
                 case Config.Class.Rogue:
-                    Console.WriteLine(" A rogue is a versatile character, capable of sneaky combat and nimble tricks. The rogue is stealthy and dextrous, and currently the only official base class from the Player's Handbook capable of finding and disarming many traps and picking locks. The rogue also has the ability to sneak attack enemies who are caught off-guard or taken by surprise, inflicting extra damage.");
+                    Console.WriteLine(@"A rogue is a versatile character, capable of sneaky combat and nimble tricks. The rogue is stealthy and dextrous, and currently the only official base class from the Player's Handbook capable of finding and disarming many traps and picking locks. The rogue also has the ability to sneak attack enemies who are caught off-guard or taken by surprise, inflicting extra damage.");
                     break;
                 case Config.Class.Wizard:
-                    Console.WriteLine("A wizard uses arcane magic, and is considered less effective in melee combat than other classes.");
+                    Console.WriteLine(@"A wizard uses arcane magic, and is considered less effective in melee combat than other classes.");
                     break;
             }
             Console.WriteLine();
@@ -211,7 +210,7 @@ namespace DungeonExplorer.game
             switch (c)
             {
                 case Config.Race.Elf:
-                    Console.WriteLine("Elves are Commonly referred to as the Fair Folk, Elves are a long-lived people who have populated many places following their retreat from Xen'drix. The stereotypical (and true) physical description of an elf includes large pointed ears; slanted eyes; elegant, angled faces; somewhat short physique, and dark forest-green eyes; finally, most differences between male and female elves are marginal.");
+                    Console.WriteLine(@"Elves are Commonly referred to as the Fair Folk, Elves are a long-lived people who have populated many places following their retreat from Xen'drix. The stereotypical (and true) physical description of an elf includes large pointed ears; slanted eyes; elegant, angled faces; somewhat short physique, and dark forest-green eyes; finally, most differences between male and female elves are marginal.");
                     Console.WriteLine(@"Racial Traits:
 +2 Dexterity, -2 Constitution
 Immunity to sleep spells and effects
@@ -225,7 +224,7 @@ Immunity to sleep spells and effects
 -2 Charisma");
                     break;
                 case Config.Race.Dwarf:
-                    Console.WriteLine("Dwarves are known for their skill in warfare, their ability to withstand physical and magical punishment and their hard work.");
+                    Console.WriteLine(@"Dwarves are known for their skill in warfare, their ability to withstand physical and magical punishment and their hard work.");
                     Console.WriteLine(@"Racial Traits:
 +2 Constitution, –2 Charisma.
 Weapon Familiarity: Dwarves may treat dwarven axe as martial weapons, rather than exotic weapons.

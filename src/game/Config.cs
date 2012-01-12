@@ -8,8 +8,8 @@ namespace DungeonExplorer.game
 
     public static class Config
     {
-        public static string GameName = "Dungeon Explorer";
-        public static string Version = "0.0.0.0?";
+        public const string GameName = "Dungeon Explorer";
+        public const string Version = "0.0.0.0?";
 
         public static Random rnd = new Random();
 
