@@ -21,6 +21,8 @@ namespace DungeonExplorer.game
         #endregion
 
         #region Public
+
+        public Stats Stats;
         public Inventory Inv;
         public Equipment Equip;
 
@@ -88,19 +90,20 @@ namespace DungeonExplorer.game
             this.Race = playerRace;
             this.Hp = playerHealth;
             this.Class = playerClass;
+            this.Stats = new Stats();
             this.Inv = new Inventory(this);
             this.Equip = new Equipment(this);
-
+            
             switch (this._playerRace)
             {
                 case Config.Race.Elf:
                     Console.WriteLine("I AM " + this.Race);
-                    _con = 6;
-                    _str = 8;
-                    _wis = 8;
-                    _int = 8;
-                    _dex = 10;
-                    _cha = 8;
+                    this.Stats.Add("Con", 6);
+                    this.Stats.Add("Str", 8);
+                    this.Stats.Add("Wis", 8);
+                    this.Stats.Add("Int", 8);
+                    this.Stats.Add("Dex", 10);
+                    this.Stats.Add("Cha", 8);
                     break;
             }
         }
