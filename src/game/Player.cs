@@ -15,6 +15,7 @@ namespace DungeonExplorer.game
         private Config.Class _playerClass;
         private Config.Race _playerRace;
         private int _playerHealth;
+        public int _con, _str, _wis, _cha, _dex, _int;
         private int LocationX = 2; // 1-9
         private int LocationY = 2; // 0-8
         #endregion
@@ -94,6 +95,12 @@ namespace DungeonExplorer.game
             {
                 case Config.Race.Elf:
                     Console.WriteLine("I AM " + this.Race);
+                    _con = 6;
+                    _str = 8;
+                    _wis = 8;
+                    _int = 8;
+                    _dex = 10;
+                    _cha = 8;
                     break;
             }
         }

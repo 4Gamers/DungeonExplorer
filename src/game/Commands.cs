@@ -164,6 +164,7 @@ namespace DungeonExplorer.game
                     return -1;
             }
             return (p.ChangeMap(mapTo) == true) ? 1 : 0;
+
         }
     }
 }

@@ -56,6 +56,8 @@ namespace DungeonExplorer.game
 
             Config.Handle work = Commands.Handle(_p, command);
             return (work == Config.Handle.Exit) ? false : Start(work);
+
+
         }
 
         private string Location(Map location)
