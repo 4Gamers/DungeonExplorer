@@ -15,7 +15,6 @@ namespace DungeonExplorer.game
         private Config.Class _playerClass;
         private Config.Race _playerRace;
         private int _playerHealth;
-        public int _con, _str, _wis, _cha, _dex, _int;
         private int LocationX = 2; // 1-9
         private int LocationY = 2; // 0-8
         #endregion
