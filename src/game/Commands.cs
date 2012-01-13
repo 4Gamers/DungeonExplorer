@@ -88,6 +88,11 @@ namespace DungeonExplorer.game
                     if (char.ToUpper(Console.ReadLine()[0]) == 'Y')
                         return Config.Handle.Exit; // Lets exit
                     break;
+                case "look":
+                case "observe":
+                case "examine":
+                    // PRINTS LOCATION MASSAGE - MAYBE SOME ROOMS WILL HAVE DEEPER EXAMINE MSG
+                    break;
                 default:
                     // HELP
                     Commands.Help();
