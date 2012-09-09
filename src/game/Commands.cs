@@ -83,6 +83,13 @@ namespace DungeonExplorer.game
                 case "i":
                     Commands.ShowInventory(p);
                     break;
+                case "equipment":
+                    Commands.ShowEquipment(p);
+                    break;
+                case "equip":
+                    slot = ReadSlot();
+                    Commands.EquipItem(p, slot);
+                    break;
                 case "exit":
                     Console.WriteLine("Are you sure you want to exit? (Y/N)");
                     if (char.ToUpper(Console.ReadLine()[0]) == 'Y')
@@ -91,7 +98,11 @@ namespace DungeonExplorer.game
                 case "look":
                 case "observe":
                 case "examine":
+                        Console.WriteLine("YOUR MOM IN A PITA");
+
+
                     // PRINTS LOCATION MASSAGE - MAYBE SOME ROOMS WILL HAVE DEEPER EXAMINE MSG
+                    // ADD SPOT SKILL THAT IF YOU HAVE ENOUGH YOU CAN SEE MORE STUFF IN A ROOM
                     break;
                 default:
                     // HELP
@@ -99,6 +110,18 @@ namespace DungeonExplorer.game
                     break;
             }
             return Config.Handle.Start; // LOOP
+        }
+
+        public static int ReadSlot()
+        {
+            Console.Write("\nPlease enter which slot to equip: ");
+            int slot = int.Parse(Console.ReadLine());
+            while ((slot > 11) || (slot <0))
+            {
+                Console.Write("\nPlease enter an available slot: ");
+                slot = int.Parse(Console.ReadLine());
+            }
+            return slot;
         }
 
         public static void Help()
@@ -119,9 +142,32 @@ namespace DungeonExplorer.game
             p.Inv.Print();
         }
 
+        public static void ShowEquipment(Player p)
+        {
+            p.Equip.Print();
+        }
+
         public static void Stats(Player p)
         {
             p.Stats.Print();
+        }
+
+
+        public static string EquipItem(Player p, int slot)
+        {
+
+            if (slot == 1212)
+            {
+                Console.WriteLine("This slot is empty.");
+            }
+
+
+
+            Config.ItemType t = (Config.ItemType)Enum.Parse(typeof(Config.ItemType), );
+
+            string type = Config.ItemType.
+
+            return ;
         }
 
         public static bool Open(Player p)

@@ -13,8 +13,6 @@
   <Class Name="DungeonExplorer.game.Config">
     <Position X="11.75" Y="2" Width="1.5" />
     <Compartments>
-      <Compartment Name="Fields" Collapsed="true" />
-      <Compartment Name="Properties" Collapsed="true" />
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
@@ -33,7 +31,7 @@
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
-      <Enum Name="DungeonExplorer.game.Config.ItemType" Collapsed="true">
+      <Enum Name="DungeonExplorer.game.Config.ItemType">
         <TypeIdentifier>
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -72,7 +70,7 @@
   <Class Name="DungeonExplorer.game.Commands">
     <Position X="1" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ABAAAAEAAIAIIAAAAAAAAAAAAAAAAAIAAAEAABBAAAA=</HashCode>
+      <HashCode>BBAAAAEAAIAKIAAAAAAAAAIAAAAAAAIAAAEAABBAAAA=</HashCode>
       <FileName>game\Commands.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -144,11 +142,8 @@
   </Class>
   <Class Name="DungeonExplorer.game.Equipment">
     <Position X="5.75" Y="1" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="true" />
-    </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACACAAAAAAAAgAAAAAAAEAAA=</HashCode>
       <FileName>game\Equipment.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

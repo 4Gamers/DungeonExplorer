@@ -19,7 +19,7 @@ namespace DungeonExplorer.game
 
         public enum Class { Fighter = 1, Wizard, Cleric, Rogue, Ranger };
 
-        public enum ItemType { Item = 1, Key, Weapon, Chest };
+        public enum ItemType { Item = 1, Key, Weapon, Helmet, Chest };
 
         public static string Classes
         {

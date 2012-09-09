@@ -27,9 +27,18 @@
       <critMultiply>2</critMultiply>
       <Hands>2</Hands>
     </Weapon>
+    <!-- Helmets -->
+    <Helmet>
+      <Id>3</Id>
+      <Type>Helmet</Type>
+
+      <Name>Red DragonScale Helmet</Name>
+      <BaseDefense>10</BaseDefense>
+      <ArmorType>Medium</ArmorType>
+    </Helmet>
     <!-- Keys -->
     <Key>
-      <Id>3</Id>
+      <Id>4</Id>
       <Type>Key</Type>
 
       <Name>Key 0</Name>
