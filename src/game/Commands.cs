@@ -86,10 +86,10 @@ namespace DungeonExplorer.game
                 case "equipment":
                     Commands.ShowEquipment(p);
                     break;
-                case "equip":
+                /*case "equip":
                     slot = ReadSlot();
                     Commands.EquipItem(p, slot);
-                    break;
+                    break;*/
                 case "exit":
                     Console.WriteLine("Are you sure you want to exit? (Y/N)");
                     if (char.ToUpper(Console.ReadLine()[0]) == 'Y')
@@ -153,7 +153,7 @@ namespace DungeonExplorer.game
         }
 
 
-        public static string EquipItem(Player p, int slot)
+        /*public static string EquipItem(Player p, int slot)
         {
 
             if (slot == 1212)
@@ -168,7 +168,7 @@ namespace DungeonExplorer.game
             string type = Config.ItemType.
 
             return ;
-        }
+        }*/
 
         public static bool Open(Player p)
         {

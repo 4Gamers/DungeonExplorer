@@ -59,6 +59,7 @@
     <Compile Include="game\Game.cs" />
     <Compile Include="game\Inventory.cs" />
     <Compile Include="game\items\Chest.cs" />
+    <Compile Include="game\items\Helmet.cs" />
     <Compile Include="game\items\Item.cs" />
     <Compile Include="game\items\Key.cs" />
     <Compile Include="game\items\Weapon.cs" />

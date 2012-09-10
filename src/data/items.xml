@@ -21,24 +21,44 @@
       <Id>2</Id>
       <Type>Weapon</Type>
 
-      <Name>Great sword2</Name>
-      <BaseDamage>16</BaseDamage>
-      <critChange>10</critChange>
+      <Name>Great Axe</Name>
+      <BaseDamage>14</BaseDamage>
+      <critChange>5</critChange>
+      <critMultiply>3</critMultiply>
+      <Hands>2</Hands>
+    </Weapon>
+    <Weapon>
+      <Id>3</Id>
+      <Type>Weapon</Type>
+
+      <Name>Falchion</Name>
+      <BaseDamage>13</BaseDamage>
+      <critChange>15</critChange>
+      <critMultiply>2</critMultiply>
+      <Hands>2</Hands>
+    </Weapon>
+    <Weapon>
+      <Id>4</Id>
+      <Type>Weapon</Type>
+
+      <Name>Great Club</Name>
+      <BaseDamage>13</BaseDamage>
+      <critChange>15</critChange>
       <critMultiply>2</critMultiply>
       <Hands>2</Hands>
     </Weapon>
     <!-- Helmets -->
     <Helmet>
-      <Id>3</Id>
+      <Id>5</Id>
       <Type>Helmet</Type>
 
-      <Name>Red DragonScale Helmet</Name>
+      <Name>Red Dragon Helmet</Name>
       <BaseDefense>10</BaseDefense>
       <ArmorType>Medium</ArmorType>
     </Helmet>
     <!-- Keys -->
     <Key>
-      <Id>4</Id>
+      <Id>6</Id>
       <Type>Key</Type>
 
       <Name>Key 0</Name>
