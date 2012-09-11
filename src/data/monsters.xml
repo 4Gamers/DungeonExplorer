@@ -1,16 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Monsters>
-  <Monster>
-    <Id>0</Id>
-    <Name>Blank</Name>
-    <Type>Don't touch</Type>
-  </Monster>
-  <!-- Animal -->
-  <Monster>
-    <Id>1</Id>
-    <Name>Rat</Name>
-    <LevelMax>3</LevelMax>
-    <LevelMin>1</LevelMin>
-    <Type>Animal</Type>
-  </Monster>
-</Monsters>
+<MonstersData>
+  <Monsters>
+    <Monster>
+      <Id>0</Id>
+      <Name>Blank</Name>
+      <Type>Don't touch</Type>
+    </Monster>
+    <!-- Animal -->
+    <Monster>
+      <Id>1</Id>
+      <Name>Rat</Name>
+      <LevelMax>3</LevelMax>
+      <LevelMin>1</LevelMin>
+      <Type>Animal</Type>
+    </Monster>
+    <!-- Human -->
+    <Monster>
+      <Id>2</Id>
+      <Name>Gaurd</Name>
+      <LevelMax>5</LevelMax>
+      <LevelMin>2</LevelMin>
+      <Type>Human</Type>
+    </Monster>
+  </Monsters>
+</MonstersData>

@@ -52,7 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="game\monsters\Animal.cs" />
     <Compile Include="game\Commands.cs" />
     <Compile Include="game\Config.cs" />
     <Compile Include="game\ItemsData.cs" />
@@ -66,9 +65,10 @@
     <Compile Include="game\items\Weapon.cs" />
     <Compile Include="game\Map.cs" />
     <Compile Include="game\MapData.cs" />
-    <Compile Include="game\monsters\Monster.cs" />
     <Compile Include="game\MonstersData.cs" />
+    <Compile Include="game\monsters\Animal.cs" />
     <Compile Include="game\monsters\Human.cs" />
+    <Compile Include="game\monsters\Monster.cs" />
     <Compile Include="game\Player.cs" />
     <Compile Include="game\Helper.cs" />
     <Compile Include="game\Stats.cs" />
@@ -85,8 +85,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Diagram.cd" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GenerateResource-ResGen.read.1.tlog" />
+    <None Include="obj\Debug\GenerateResource-ResGen.write.1.tlog" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="obj\Debug\DungeonExplorer.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -98,6 +102,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\monsters.xml" />
+    <Content Include="obj\.gitignore" />
+    <Content Include="obj\Debug\DungeonExplorer.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\DungeonExplorer.exe" />
+    <Content Include="obj\Debug\DungeonExplorer.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -23,5 +23,4 @@ namespace DungeonExplorer.game
             Items = new List<Item>();
         }
     }
-
 }
