@@ -65,6 +65,8 @@
     <Compile Include="game\items\Weapon.cs" />
     <Compile Include="game\Map.cs" />
     <Compile Include="game\MapData.cs" />
+    <Compile Include="game\Monster.cs" />
+    <Compile Include="game\MonstersData.cs" />
     <Compile Include="game\Player.cs" />
     <Compile Include="game\Helper.cs" />
     <Compile Include="game\Stats.cs" />
@@ -77,6 +79,7 @@
     </Compile>
     <Compile Include="xml\Items.cs" />
     <Compile Include="xml\Maps.cs" />
+    <Compile Include="xml\Monsters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Diagram.cd" />
@@ -90,6 +93,9 @@
   <ItemGroup>
     <EmbeddedResource Include="data\items.xml" />
     <EmbeddedResource Include="data\maps.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\monsters.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -47,6 +47,11 @@ namespace DungeonExplorer.xml
             return (List<Item>)ItemsData.Items.Where(i => i.Type == type).ToList();
         }
 
+        public static List<Item> ItemsByName(string name)
+        {
+            return (List<Item>)ItemsData.Items.Where(i => i.Name == name).ToList();
+        }
+
         // Random item
         public static Item Random()
         {
