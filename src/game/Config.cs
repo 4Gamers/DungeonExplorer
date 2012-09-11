@@ -21,6 +21,8 @@ namespace DungeonExplorer.game
 
         public enum ItemType { Item = 1, Key, Weapon, Helmet, Chest };
 
+        public enum MonsterType { Animal = 1, Human };
+
         public static string Classes
         {
             get
