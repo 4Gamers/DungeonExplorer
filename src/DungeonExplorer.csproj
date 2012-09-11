@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="game\monsters\Animal.cs" />
     <Compile Include="game\Commands.cs" />
     <Compile Include="game\Config.cs" />
     <Compile Include="game\ItemsData.cs" />
@@ -65,8 +66,9 @@
     <Compile Include="game\items\Weapon.cs" />
     <Compile Include="game\Map.cs" />
     <Compile Include="game\MapData.cs" />
-    <Compile Include="game\Monster.cs" />
+    <Compile Include="game\monsters\Monster.cs" />
     <Compile Include="game\MonstersData.cs" />
+    <Compile Include="game\monsters\Human.cs" />
     <Compile Include="game\Player.cs" />
     <Compile Include="game\Helper.cs" />
     <Compile Include="game\Stats.cs" />

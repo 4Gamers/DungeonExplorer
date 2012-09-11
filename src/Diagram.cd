@@ -31,7 +31,7 @@
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
-      <Enum Name="DungeonExplorer.game.Config.ItemType">
+      <Enum Name="DungeonExplorer.game.Config.ItemType" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>game\Config.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -70,7 +70,7 @@
   <Class Name="DungeonExplorer.game.Commands">
     <Position X="1" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BBAAAAEAAIAKIAAAAAAAAAIAAAAAAAIAAAEAABBAAAA=</HashCode>
+      <HashCode>ABAAAAEAAIAKIAAAAAAAAAIAAAAAAAIAAAEAABBAAAA=</HashCode>
       <FileName>game\Commands.cs</FileName>
     </TypeIdentifier>
   </Class>
