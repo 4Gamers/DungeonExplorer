@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <Monster>
+    <Id>0</Id>
+    <Name>Blank</Name>
+    <Type>Don't touch</Type>
+  </Monster>
+  <!-- Animal -->
+  <Monster>
+    <Id>1</Id>
+    <Name>Rat</Name>
+    <LevelMax>3</LevelMax>
+    <LevelMin>1</LevelMin>
+    <Type>Animal</Type>
+  </Monster>
+</Monsters>
