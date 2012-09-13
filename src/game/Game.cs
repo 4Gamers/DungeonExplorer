@@ -16,7 +16,7 @@ namespace DungeonExplorer.game
             /* LOADING */
             Items.Init(); // Load items data
             Maps.Init(); // Load map data
-            Monsters.Init(); // Load monster data
+            /*Monsters.Init(); // Load monster data*/
 
             System.Threading.Thread.Sleep(500); // Sleep
 

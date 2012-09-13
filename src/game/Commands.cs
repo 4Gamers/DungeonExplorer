@@ -30,6 +30,9 @@ namespace DungeonExplorer.game
                     case "take":
                         command += " (slot)";
                         break;
+                    case "equip":
+                        command += " (item) ";
+                        break;
                 }
 
                 _commands.Add(command);
@@ -68,6 +71,9 @@ namespace DungeonExplorer.game
                                 Console.WriteLine("Your inventory is full");
                             else
                                 Console.WriteLine("No chests in this room");
+                    break;
+                case "drop":
+                    // DROP DA BASS!!
                     break;
                 case "open":
                     if (Commands.Open(p))

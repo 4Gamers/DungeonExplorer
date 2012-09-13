@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="game\Fight.cs" />
     <Compile Include="game\Commands.cs" />
     <Compile Include="game\Config.cs" />
     <Compile Include="game\ItemsData.cs" />

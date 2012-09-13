@@ -104,6 +104,42 @@ namespace DungeonExplorer.game
                     this.Stats.Add("Dex", 10);
                     this.Stats.Add("Cha", 8);
                     break;
+                case Config.Race.Orc:
+                    Console.WriteLine("I AM " + this.Race);
+                    this.Stats.Add("Con", 8);
+                    this.Stats.Add("Str", 8);
+                    this.Stats.Add("Wis", 8);
+                    this.Stats.Add("Int", 6);
+                    this.Stats.Add("Dex", 8);
+                    this.Stats.Add("Cha", 6);
+                    break;
+                case Config.Race.Human:
+                    Console.WriteLine("I AM " + this.Race);
+                    this.Stats.Add("Con", 8);
+                    this.Stats.Add("Str", 8);
+                    this.Stats.Add("Wis", 8);
+                    this.Stats.Add("Int", 8);
+                    this.Stats.Add("Dex", 8);
+                    this.Stats.Add("Cha", 8);
+                    break;
+                case Config.Race.Dwarf:
+                    Console.WriteLine("I AM " + this.Race);
+                    this.Stats.Add("Con", 10);
+                    this.Stats.Add("Str", 8);
+                    this.Stats.Add("Wis", 8);
+                    this.Stats.Add("Int", 8);
+                    this.Stats.Add("Dex", 8);
+                    this.Stats.Add("Cha", 6);
+                    break;
+                case Config.Race.Halfling:
+                    Console.WriteLine("I AM " + this.Race);
+                    this.Stats.Add("Con", 8);
+                    this.Stats.Add("Str", 6);
+                    this.Stats.Add("Wis", 8);
+                    this.Stats.Add("Int", 8);
+                    this.Stats.Add("Dex", 10);
+                    this.Stats.Add("Cha", 8);
+                    break;
             }
         }
 
